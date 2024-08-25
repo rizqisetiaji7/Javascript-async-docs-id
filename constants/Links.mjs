@@ -31,5 +31,5 @@ export const NAV_LINKS = [
 ]
 
 export const SOCIAL_LINKS = [
-	{ icon: 'github', link: 'https://github.com/rizqisetiaji7' }
+	{ icon: 'github', link: 'https://github.com/rizqisetiaji7/Javascript-async-docs-id' }
 ]
