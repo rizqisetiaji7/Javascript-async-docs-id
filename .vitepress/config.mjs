@@ -3,6 +3,7 @@ import { NAV_LINKS, SIDEBAR_LINKS, SOCIAL_LINKS } from '../constants/Links.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'id-ID',
   title: "Async Docs",
   description: "Javascript ASYNC Dokumentasi Bahasa Indonesia",
   cleanUrls: true,
