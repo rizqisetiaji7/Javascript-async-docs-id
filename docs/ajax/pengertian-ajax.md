@@ -1,5 +1,5 @@
 ---
-title: 'AJAX Js Async'
+title: 'AJAX'
 ---
 
 # AJAX (Asynchronous Javascript and XML)

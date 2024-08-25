@@ -1,5 +1,5 @@
 ---
-title: 'Introduction Js Async'
+title: 'Intro'
 ---
 
 # Pengenalan Asynchronous

@@ -1,5 +1,5 @@
 ---
-title: 'setTimeout Js Async'
+title: 'Async Method setTimeout'
 ---
 
 # Async Method - setTimeout

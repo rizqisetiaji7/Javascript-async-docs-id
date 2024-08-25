@@ -1,5 +1,5 @@
 ---
-title: 'setInterval Js Async'
+title: 'Async Method setInterval'
 ---
 
 # Async Method - setInterval
