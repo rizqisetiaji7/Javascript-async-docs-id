@@ -11,7 +11,11 @@ export const SIDEBAR_LINKS = [
 	{
 		text: 'AJAX',
 		items: [
-			{ text: 'Pengertian AJAX', link: '/docs/ajax/pengertian-ajax' }
+			{ text: 'Pengertian AJAX', link: '/docs/ajax/pengertian-ajax' },
+			{ text: 'Response Status', link: '/docs/ajax/response-status' },
+			{ text: 'State', link: '/docs/ajax/state' },
+			{ text: 'Mengirim Data', link: '/docs/ajax/send-data' },
+			{ text: 'URL Search Params', link: '/docs/ajax/url-search-params' },
 		]
 	}
 ]
