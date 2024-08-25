@@ -1,5 +1,5 @@
 ---
-title: 'AJAX'
+title: 'Pengertian AJAX'
 ---
 
 # AJAX (Asynchronous Javascript and XML)
