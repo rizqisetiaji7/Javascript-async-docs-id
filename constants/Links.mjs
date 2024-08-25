@@ -2,10 +2,10 @@ export const SIDEBAR_LINKS = [
 	{
 		// text: 'Introduction',
 		items: [
-			{ text: 'Agenda', link: '/docs' },
-			{ text: 'Asynchronous', link: '/docs/intro/async-introduction' },
-			{ text: 'setTimeout()', link: '/docs/intro/settimeout' },
-			{ text: 'setInterval()', link: '/docs/intro/setinterval' },
+			{ text: 'Agenda Belajar', link: '/docs' },
+			{ text: 'Pengenalan Async', link: '/docs/intro/async-introduction' },
+			{ text: 'Async method setTimeout()', link: '/docs/intro/settimeout' },
+			{ text: 'Async method setInterval()', link: '/docs/intro/setinterval' },
 		]
 	},
 	{
