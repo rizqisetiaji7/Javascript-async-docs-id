@@ -1,0 +1,20 @@
+{
+  "name": "javascript-async-docs-id",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Rizqi Setiaji",
+    "url": "https://github.com/rizqisetiaji7/"
+  },
+  "repository": {
+    "url": "https://github.com/rizqisetiaji7/Javascript-async-docs-id.git"
+  },
+  "devDependencies": {
+    "vitepress": "^1.3.4"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
