@@ -4,11 +4,20 @@ layout: home
 
 hero:
   name: "Javascript Async"
-  # text: "Rangkuman Dokumentasi"
-  tagline: Rangkuman dokumentasi Javascript Asynchronous Bahasa Indonesia
+  # text: "Dengan Vitepress"
+  tagline: Dokumentasi Javascript Asynchronous Bahasa Indonesia
+  image:
+    src: /vitepress-logo-large.webp
+    alt: Javascript
   actions:
     - theme: brand
-      text: Lihat Selengkapnya
+      text: Dokumentasi
       link: /docs
+    - theme: alt
+      text: GitHub
+      link: https://github.com/rizqisetiaji7/Javascript-async-docs-id
 ---
 
+<script type="module">
+  import '/main.css'
+</script>
