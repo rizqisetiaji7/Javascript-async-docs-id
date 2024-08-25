@@ -1,0 +1,59 @@
+---
+title: AJAX Form Data
+---
+
+# AJAX Form Data
+
+Selain menggunakan `JSON` dan `URLSearchParams`, AJAX juga bisa menggunakan Form Data dari client ke server. Dalam hal ini, proses pengiriman data seperti pada submit form. Namun, untuk case ini juga masih tetap bisa menggunakan `URLSearchParams`. Kenapa? karena bentuk dari `FormData` object juga seperti pada `URLSearchParams`. Akan tetapi object `URLSearchParams` kali ini dikirim melalui method `send()`.
+
+**Berikut Contoh penggunaanya:**
+```js{6}
+const formData = new URLSearchParams()
+
+formData.append('keyName1', 'value1')
+formData.append('keyName2', 'value2')
+
+ajax.send(formData)
+```
+
+Pada contoh diatas bisa dilihat body yang dikirimkan bukan melalui query parameter, tetapi menggunakan body object melalui method `send()`.
+
+> :memo: **Baca selengkapnya:** [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+
+## Contoh penggunaan
+
+Memanfaatkan [Json Placeholder API](https://jsonplaceholder.typicode.com/), untuk melakukan test mengirim request ke server.
+Berikut merupakan contoh case mengirim data dengan menggunakan `FormData` via `URLSearchParams`:
+
+```js{12-15,17}
+const createPost = () => {
+	const ajax = new XMLHttpRequest()
+	ajax.open('POST', `https://jsonplaceholder.typicode.com/posts`)
+
+	ajax.onload = () => {
+		const response = document.getElementById('response')
+		response.innerHTML = `<pre>${ajax.responseText}</pre>`
+	}
+
+	ajax.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
+
+	const formData = new URLSearchParams()
+	formData.append('userId', Math.ceil(Math.random()*10))
+	formData.append('title', document.querySelector('[name=title]').value)
+	formData.append('body', document.querySelector('[name=body]').value)
+
+	ajax.send(formData)
+}
+
+document.getElementById('saveButton').onclick = createPost
+```
+
+**Contoh hasil response:**
+```txt
+{
+	"userId": "5",
+	"title": "Post title",
+	"body": "This is post desription",
+	"id": 101
+}
+```
