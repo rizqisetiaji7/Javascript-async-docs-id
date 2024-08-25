@@ -1,6 +1,7 @@
 export const SIDEBAR_LINKS = [
 	{
-		// text: 'Introduction',
+		text: 'Intro',
+		collapsed: false,
 		items: [
 			{ text: 'Agenda Belajar', link: '/docs' },
 			{ text: 'Pengenalan Async', link: '/docs/intro/async-introduction' },
@@ -10,12 +11,15 @@ export const SIDEBAR_LINKS = [
 	},
 	{
 		text: 'AJAX',
+		collapsed: false,
 		items: [
 			{ text: 'Pengertian AJAX', link: '/docs/ajax/pengertian-ajax' },
 			{ text: 'Response Status', link: '/docs/ajax/response-status' },
 			{ text: 'State', link: '/docs/ajax/state' },
 			{ text: 'Mengirim Data', link: '/docs/ajax/send-data' },
 			{ text: 'URL Search Params', link: '/docs/ajax/url-search-params' },
+			{ text: 'Form Data', link: '/docs/ajax/form-data' },
+			{ text: 'Upload File', link: '/docs/ajax/upload-file' },
 		]
 	}
 ]
