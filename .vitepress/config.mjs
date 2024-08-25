@@ -3,8 +3,8 @@ import { NAV_LINKS, SIDEBAR_LINKS, SOCIAL_LINKS } from '../constants/Links.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "JS ASYNC Docs",
-  description: "Javascript ASYNC Documentation",
+  title: "JS Docs",
+  description: "Javascript ASYNC Dokumentasi Bahasa Indonesia",
   cleanUrls: true,
   markdown: {
     theme: 'tokyo-night'

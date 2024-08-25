@@ -23,5 +23,5 @@ export const NAV_LINKS = [
 ]
 
 export const SOCIAL_LINKS = [
-	{ icon: 'github', link: '#' }
+	{ icon: 'github', link: 'https://github.com/rizqisetiaji7' }
 ]
