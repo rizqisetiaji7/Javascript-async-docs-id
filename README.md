@@ -4,7 +4,7 @@
 
 **Clone repository**
 ```
-git clone https://github.com/
+git clone https://github.com/rizqisetiaji7/Javascript-async-docs-id.git
 ```
 
 **Install dependency**
