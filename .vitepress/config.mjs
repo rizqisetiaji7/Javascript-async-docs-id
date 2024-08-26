@@ -21,6 +21,7 @@ export default defineConfig({
     nav: NAV_LINKS,
     sidebar: SIDEBAR_LINKS,
     socialLinks: SOCIAL_LINKS,
+    outline: 'deep',
 
     footer: {
       copyright: `&copy Copyright ${new Date().getFullYear()} | Alrights reserved.`
