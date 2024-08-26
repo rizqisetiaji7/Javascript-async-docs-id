@@ -37,7 +37,8 @@ ajax.onload = () => { ... }
 ## Contoh Penggunaan
 
 Contoh model data dengan menggunakan file json:
-```js 
+
+```js
 {
 	"response": "Success",
 	"message": "Hello, Welcome to AJAX",
@@ -50,9 +51,11 @@ Contoh model data dengan menggunakan file json:
 ```
 
 Implementasi penggunaan `XMLHttpRequest`:
-```js index.js
+
+::: code-group
+```js [Code]
 const ajax = new XMLHttpRequest();
-ajax.open('GET', 'api/04-hello.json')
+ajax.open('GET', 'api/jsonurl') // From api url or database
 
 // ajax.onload = () => {  }
 ajax.addEventListener('load', function() {
@@ -67,7 +70,7 @@ ajax.addEventListener('load', function() {
 ajax.send()
 ```
 
-**Contoh Response AJAX dari file json**
-```txt
+```html [Response]
 Hello, Welcome to AJAX
 ```
+::: 

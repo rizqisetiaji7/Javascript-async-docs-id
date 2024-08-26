@@ -16,7 +16,7 @@ AJAX memiliki tahapan state, yang dimana terdapat banyak state yang bisa diakses
 | 3     | `LOADING` | Mengunduh `responseText` menyimpan sebagian data |
 | 4     | `DONE` | Operasi selesai |
 
-## Ready State Change Event
+## Ready State Change
 
 Jika ingin mengetahui setiap perubahan pada statenya, AJAX bisa menggunakan event `readystatechange`, atau menggunakan property `onreadystatechange`.
 
@@ -29,7 +29,7 @@ ajax.onreadystatechange = function(ev) {...}
 > :memo: **Baca selengkapnya:** [AJAX Ready State Change Event](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/onreadystatechange)
 
 
-## Contoh State
+## Contoh Penggunaan
 ```js{5-7,9-11}
 const ajax = new XMLHttpRequest();
 ajax.open('GET', 'api/04-hello.json')

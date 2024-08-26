@@ -36,7 +36,8 @@ Parameter berupa format query string yang berisi key/value, namun bersifat opsio
 
 Berikut contoh mengirim data menggunakan URLSearchParams, dengan menggunakan API [restcountries.com](https://restcountries.com/)
 
-```js{6-7}
+::: code-group
+```js{6-7} [Code]
 const doSearch = () => {
 	const ajax = new XMLHttpRequest()
 	const search = document.getElementById('search').value
@@ -62,8 +63,7 @@ const doSearch = () => {
 document.getElementById('searchButton').onclick = doSearch
 ```
 
-**Contoh Response**
-```
+```js [Response]
 {
 	"common": "Indonesia",
 	"official": "Republic of Indonesia",
@@ -75,3 +75,4 @@ document.getElementById('searchButton').onclick = doSearch
 	}
 }
 ```
+:::

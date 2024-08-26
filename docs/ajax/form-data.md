@@ -25,7 +25,8 @@ Pada contoh diatas bisa dilihat body yang dikirimkan bukan melalui query paramet
 Memanfaatkan [Json Placeholder API](https://jsonplaceholder.typicode.com/), untuk melakukan test mengirim request ke server.
 Berikut merupakan contoh case mengirim data dengan menggunakan `FormData` via `URLSearchParams`:
 
-```js{12-15,17}
+::: code-group
+```js{12-15,17} [Code]
 const createPost = () => {
 	const ajax = new XMLHttpRequest()
 	ajax.open('POST', `https://jsonplaceholder.typicode.com/posts`)
@@ -48,8 +49,7 @@ const createPost = () => {
 document.getElementById('saveButton').onclick = createPost
 ```
 
-**Contoh hasil response:**
-```txt
+```js [Response]
 {
 	"userId": "5",
 	"title": "Post title",
@@ -57,3 +57,4 @@ document.getElementById('saveButton').onclick = createPost
 	"id": 101
 }
 ```
+:::

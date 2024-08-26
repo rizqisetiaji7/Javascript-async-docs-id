@@ -23,10 +23,12 @@ Body bersifat optional. Body data yang dikirim bisa berupa, `Document`, `FormDat
 
 > :memo: **Baca selengkapnya:** [AJAX Send Request](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send)
 
-## Contoh AJAX Send
+## AJAX Send
 
 Berikut contoh script penggunaan `XMLHttpRequest.send()` pada studi kasus form login:
-```js{10-13}
+
+::: code-group
+```js{10-13} [Code]
 const doLogin = () => {
 	const ajax = new XMLHttpRequest()
 	ajax.open('POST', 'https://eoqdwp0121m96kl.m.pipedream.net')
@@ -45,7 +47,7 @@ const doLogin = () => {
 document.getElementById('login').onclick = doLogin
 ```
 
-**Contoh response**
-```txt
-{status: success}
+```js [Response]
+{ status: 'success' }
 ```
+:::

@@ -19,8 +19,8 @@ console.log(ajax.status) // Unsent = 0
 ## Contoh Request & Response
 Berikut merupakan contoh request dan response dengan menggunakan AJAX
 
-**Request**
-```js{3,17}
+::: code-group
+```js{3,17} [Request]
 const displayResponse = (json) => {
 	const response = document.getElementById('response')
 	response.textContent = `Response Status (${json.response}) => ${json.message}`
@@ -46,7 +46,8 @@ ajax.addEventListener('load', function() {
 ajax.send()
 ```
 
-**Response**
-```txt
+
+```html [Reponse]
 Hello, Welcome to AJAX
 ```
+:::
