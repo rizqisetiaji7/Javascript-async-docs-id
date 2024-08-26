@@ -21,6 +21,14 @@ export const SIDEBAR_LINKS = [
 			{ text: 'Form Data', link: '/docs/ajax/form-data' },
 			{ text: 'Upload File', link: '/docs/ajax/upload-file' },
 		]
+	},
+	{
+		text: 'Promise',
+		collapsed: false,
+		items: [
+			{ text: 'Pengertian Promise', link: '/docs/promise/pengertian-promise' },
+			{ text: 'Promise Method', link: '/docs/promise/promise-method' },
+		]
 	}
 ]
 
