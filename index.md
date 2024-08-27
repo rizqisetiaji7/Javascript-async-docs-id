@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/rizqisetiaji7/Javascript-async-docs-id
+    - theme: alt
+      text: Web API
+      link: https://developer.mozilla.org/en-US/docs/Web/API
 ---
 
 <script type="module">
