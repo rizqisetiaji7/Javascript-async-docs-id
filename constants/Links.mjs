@@ -13,7 +13,7 @@ export const SIDEBAR_LINKS = [
 		text: 'AJAX',
 		collapsed: false,
 		items: [
-			{ text: 'Pengertian AJAX', link: '/docs/ajax/pengertian-ajax' },
+			{ text: 'Pengertian', link: '/docs/ajax/pengertian-ajax' },
 			{ text: 'Response Status', link: '/docs/ajax/response-status' },
 			{ text: 'State', link: '/docs/ajax/state' },
 			{ text: 'Mengirim Data', link: '/docs/ajax/send-data' },
@@ -26,8 +26,16 @@ export const SIDEBAR_LINKS = [
 		text: 'Promise',
 		collapsed: false,
 		items: [
-			{ text: 'Pengertian Promise', link: '/docs/promise/pengertian-promise' },
+			{ text: 'Pengertian', link: '/docs/promise/pengertian-promise' },
 			{ text: 'Promise Method', link: '/docs/promise/promise-method' },
+			{ text: 'Promise Static Method', link: '/docs/promise/static-method' },
+		]
+	},
+	{
+		text: 'Fetch API',
+		collapsed: false,
+		items: [
+			{ text: 'Pengertian', link: '/docs/fetch-api/pengertian-fetch-api' },
 		]
 	}
 ]
