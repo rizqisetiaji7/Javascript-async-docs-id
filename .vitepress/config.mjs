@@ -8,7 +8,10 @@ export default defineConfig({
   description: "Javascript ASYNC Dokumentasi Bahasa Indonesia",
   cleanUrls: true,
   markdown: {
-    theme: 'tokyo-night'
+    theme: {
+      light: 'github-light',
+      dark: 'tokyo-night'
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
