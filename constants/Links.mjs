@@ -45,6 +45,9 @@ export const SIDEBAR_LINKS = [
 		collapsed: false,
 		items: [
 			{ text: 'Definisi', link: '/docs/async-await/definisi-async-await' },
+			{ text: 'Async', link: '/docs/async-await/async' },
+			{ text: 'Await', link: '/docs/async-await/await' },
+			{ text: 'Error Handling', link: '/docs/async-await/error-handling' },
 		]
 	}
 ]
