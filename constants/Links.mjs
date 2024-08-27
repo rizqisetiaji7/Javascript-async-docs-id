@@ -39,6 +39,13 @@ export const SIDEBAR_LINKS = [
 			{ text: 'Request Object', link: '/docs/fetch-api/request' },
 			{ text: 'Response Object', link: '/docs/fetch-api/response' },
 		]
+	},
+	{
+		text: 'Async Await',
+		collapsed: false,
+		items: [
+			{ text: 'Definisi', link: '/docs/async-await/definisi-async-await' },
+		]
 	}
 ]
 
