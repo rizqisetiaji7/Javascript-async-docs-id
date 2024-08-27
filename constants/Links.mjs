@@ -49,13 +49,22 @@ export const SIDEBAR_LINKS = [
 			{ text: 'Await', link: '/docs/async-await/await' },
 			{ text: 'Error Handling', link: '/docs/async-await/error-handling' },
 		]
+	},
+	{
+		text: 'Web Worker',
+		collapsed: false,
+		items: [
+			{ text: 'Javascript Thread', link: '/docs/web-worker/thread' },
+			{ text: 'Definisi', link: '/docs/web-worker/definisi-web-worker' },
+			{ text: 'Worker Object', link: '/docs/web-worker/worker-object' },
+		]
 	}
 ]
 
 
 export const NAV_LINKS = [
-	{ text: 'Home', link: '/' },
-	{ text: 'Docs', link: '/docs' }
+	{ text: 'Web API', link: 'https://developer.mozilla.org/en-US/docs/Web/API' },
+	{ text: 'Dokumentasi', link: '/docs' }
 ]
 
 export const SOCIAL_LINKS = [
