@@ -13,9 +13,9 @@ export const SIDEBAR_LINKS = [
 		text: 'AJAX',
 		collapsed: false,
 		items: [
-			{ text: 'Pengertian', link: '/docs/ajax/pengertian-ajax' },
+			{ text: 'Definisi', link: '/docs/ajax/definisi-ajax' },
 			{ text: 'Response Status', link: '/docs/ajax/response-status' },
-			{ text: 'State', link: '/docs/ajax/state' },
+			{ text: 'AJAX State', link: '/docs/ajax/state' },
 			{ text: 'Mengirim Data', link: '/docs/ajax/send-data' },
 			{ text: 'URL Search Params', link: '/docs/ajax/url-search-params' },
 			{ text: 'Form Data', link: '/docs/ajax/form-data' },
@@ -26,7 +26,7 @@ export const SIDEBAR_LINKS = [
 		text: 'Promise',
 		collapsed: false,
 		items: [
-			{ text: 'Pengertian', link: '/docs/promise/pengertian-promise' },
+			{ text: 'Definisi', link: '/docs/promise/definisi-promise' },
 			{ text: 'Promise Method', link: '/docs/promise/promise-method' },
 			{ text: 'Promise Static Method', link: '/docs/promise/static-method' },
 		]
@@ -35,7 +35,9 @@ export const SIDEBAR_LINKS = [
 		text: 'Fetch API',
 		collapsed: false,
 		items: [
-			{ text: 'Pengertian', link: '/docs/fetch-api/pengertian-fetch-api' },
+			{ text: 'Definisi', link: '/docs/fetch-api/definisi-fetch-api' },
+			{ text: 'Request Object', link: '/docs/fetch-api/request' },
+			{ text: 'Response Object', link: '/docs/fetch-api/response' },
 		]
 	}
 ]
