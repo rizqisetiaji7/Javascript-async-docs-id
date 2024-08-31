@@ -1,10 +1,10 @@
-# :sparkles: Javascript ASYNC
+# :sparkles: Javascript Documentation
 
- Repositori ini merupakan catatan/rangkuman dokumentasi dari pembelajaran seputar JavaScript Asynchronous Bahasa Indonesia.
+ Repositori ini merupakan catatan/dokumentasi pembelajaran seputar JavaScript Bahasa Indonesia dari [Programmer Zaman Now](https://www.programmerzamannow.com/).
 
 **Clone repository**
 ```
-git clone https://github.com/rizqisetiaji7/Javascript-async-docs-id.git
+git clone https://github.com/rizqisetiaji7/Javascript-pzn-docs-id.git
 ```
 
 **Install dependency**
