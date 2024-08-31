@@ -1,8 +1,32 @@
 export const SIDEBAR_LINKS = {
-	'/docs/oop/': {},
-	'/docs/standard-library/': {},
-	'/docs/js-modules/': {},
-	'/docs/dom/': {},
+	'/docs/oop/': {
+		text: 'JavaScript OOP',
+		items: [
+			{ text: 'Intro', link: '/docs/oop/' },
+		]
+	},
+
+	'/docs/std-library/': {
+		text: 'JavaScript Standard Library',
+		items: [
+			{ text: 'Intro', link: '/docs/std-library/' },
+		]
+	},
+
+	'/docs/js-modules/': {
+		text: 'JavaScript Modules',
+		items: [
+			{ text: 'Intro', link: '/docs/js-modules/' },
+		]
+	},
+
+	'/docs/dom/': {
+		text: 'JavaScript DOM',
+		items: [
+			{ text: 'Intro', link: '/docs/dom/' },
+		]
+	},
+	
 	'/docs/async/': {
 		text: 'JavaScript Async',
 		items: [
@@ -83,7 +107,7 @@ export const NAV_LINKS = [
 		text: 'Materi', 
 		items: [
 			{ text: 'JavaScript OOP', link: '/docs/oop/' },
-			{ text: 'JavaScript Std. Library', link: '/docs/standard-library/' },
+			{ text: 'JavaScript Std. Library', link: '/docs/std-library/' },
 			{ text: 'JavaScript Modules', link: '/docs/js-modules/' },
 			{ text: 'JavaScript DOM', link: '/docs/dom/' },
 			{ text: 'JavaScript Async', link: '/docs/async/' },
