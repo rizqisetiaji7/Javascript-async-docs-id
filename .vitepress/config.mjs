@@ -25,9 +25,5 @@ export default defineConfig({
     sidebar: SIDEBAR_LINKS,
     socialLinks: SOCIAL_LINKS,
     outline: 'deep',
-
-    footer: {
-      copyright: `&copy Copyright ${new Date().getFullYear()} | Alrights reserved.`
-    }
   }
 })
