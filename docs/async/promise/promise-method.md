@@ -34,10 +34,9 @@ function getProduct() {
 
 // Penggunaan Promise Method
 getProduct()
-   .then(function(response) {
-      // Konversi data menjadi json
-      return JSON.parse(response)
-   })
+   .then(function(response) { // [!code ++]
+      return JSON.parse(response) // Konversi json // [!code ++]
+   }) // [!code ++]
 ```
 
 ::: info :memo: NOTE
@@ -46,7 +45,7 @@ Jika bentuk kode seperti pada contoh diatas, maka otomatis akan menjadi promise 
 
 Setelah data dari reponse promise sebelumnya telah di konversi, maka kita bisa menggunakan `then()` lagi lalu memanipulasi datanya sesuai dengan kebutuhan, misalnya menampilkan datanya ke elemen DOM.
 
-### Koversi Data Jika Sukses
+### Konversi Data Jika Sukses
 
 ```js
 getProduct()
@@ -76,23 +75,18 @@ Promise juga dapat menangani Error dengan menggunakan method `catch()`, yang men
 ```js{3-5}
 getProduct()
    .then(function(json) { ... })
-   .catch(function(error) {
-      console.log(error)
-   })
+   .catch((error) => console.log(error)) // [!code ++]
 ```
 
 ### Finally Method
 
 Method `finally()` akan selalu di jalankan meskipun `Promise` sukses maupun terjadi error, berikut contohnya:
 
-```js{6-9}
+```js
 getProduct()
    .then(function(json) { ... })
-   .catch(function(error) {
-      console.log(error)
-   })
-   .finally(function() {
-      console.log('Proses Selesai.')
-      // Atau lakukan sesuatu jika promise telah selesai dijalankan
-   })
+   .catch((error) => console.log(error))
+   .finally(() => console.log('Proses Selesai.')) // [!code ++]
 ```
+
+Atau lakukan sesuatu hal lain pada method finally seperti event trigger, atau aksi yang berjalan setelah promise selesai dijalankan.

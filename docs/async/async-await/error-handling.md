@@ -16,7 +16,8 @@ async function getProductName() {
    try {
       const product = await getProduct()
       return product.name
-   } catch (e) {
+   } 
+   catch (e) {
       return 'Product Not Found'
    }
 }
@@ -29,9 +30,11 @@ async function getProductName() {
    try {
       const product = await getProduct()
       return product.name
-   } catch (e) {
+   } 
+   catch (e) {
       return 'Product Not Found'
-   } finally { // [!code ++]
+   } 
+   finally { // [!code ++]
       console.log('Process Done!') // [!code ++]
    } // [!code ++]
 }

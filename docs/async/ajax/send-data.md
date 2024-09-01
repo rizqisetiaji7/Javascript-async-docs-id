@@ -8,20 +8,28 @@ Saat menggunakan AJAX, bukan hanya sekedar mengambil data dari server saja, AJAX
 
 Untuk melakukan hal tersebut, pada AJAX bisa dengan menambahkan parameter data yang akan dikirimkan pada method `send()` milik `XMLHttpRequest`. Parameter data tersebut bersifat optional atau tidak wajib apabila tidak akan ada data yang dikirim.
 
-**Syntax:**
+## Syntax Send Method
+
 ```js
 XMLHttpRequest.send(body)
-
-// Contoh
-XMLHttpRequest.send(JSON.stringify({
-	_id: 170,
-	name: 'Rizqi Setiaji'
-})) 
 ```
 
-Body bersifat optional. Body data yang dikirim bisa berupa, `Document`, `FormData`, `URLSearchParams`, atau `Object` berupa JSON yang di konversi menjadi `string`, dll.
+::: info :memo: CATATAN 
+Body bersifat optional, yang berarti bisa terdapat data maupun tidak tergantung tujuan. Body data yang dikirim bisa berupa, `Document`, `FormData`, `URLSearchParams`, atau `Object` berupa JSON yang di konversi menjadi `string`, dll.
+:::
 
 > :memo: **Baca selengkapnya:** [AJAX Send Request](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send)
+
+## Contoh penggunaan
+
+Send data AJAX via body JSON string:
+
+```js
+XMLHttpRequest.send(JSON.stringify({
+	_id: 170, // [!code ++]
+	name: 'Rizqi Setiaji' // [!code ++]
+}))  
+```
 
 ## AJAX Send
 

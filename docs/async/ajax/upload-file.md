@@ -10,8 +10,7 @@ Berbeda dengan cara sebelumnya, Upload file tidak bisa menggunakan metode sepert
 
 Ketika `FormData` tersebut dikirim maka encoding type nya wajib menggunakan `"multipart/form-data"` atau yang biasa di set pada attribute `enctype` pada form element.
 
-## Referensi
-> :memo: Daftar Referensi
+## Daftar Referensi
 
 | Name | Sumber |
 | -------- | --------- |
@@ -60,8 +59,10 @@ Merupakan object dari `FileList` yang mengembalikan hasil file yang dipilih user
 
 ```js
 new File(bits, name[, options])
+```
 
-// Contoh lain
+**Contoh penggunaan:**
+```js
 const file = new File(["foo"], "foo.txt", {
 	type: "text/plain",
 });
@@ -119,14 +120,14 @@ Berikut contoh penggunaan file upload menggunakan AJAX via `FormData` Object, de
 		Username: <input type="text" name="username" id="username">
 	</label>
 	<label for="profile">
-		Profile: <input type="file" name="profile" id="profile">
+		Profile: <input type="file" name="profile" id="profile"> // [!code ++]
 		<!-- Tambahkan attribute multiple untuk upload banyak file -->
 	</label>
 	<input type="button" id="register" value="Register">
 </form>
 ```
 
-```js{12-17} [Javascript]
+```js [Javascript]
 const doRegister = () => {
 	const ajax = new XMLHttpRequest()
 
@@ -138,10 +139,10 @@ const doRegister = () => {
 	}
 
 	// Instance FormData Object
-	const form = new FormData()
+	const form = new FormData() // [!code ++]
 	form.append('name', document.getElementById('name').value)
 	form.append('username', document.getElementById('username').value)
-	form.append('profile', document.getElementById('profile').files.item(0))
+	form.append('profile', document.getElementById('profile').files.item(0)) // [!code ++]
 
 	ajax.send(form)
 }

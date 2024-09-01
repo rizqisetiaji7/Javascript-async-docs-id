@@ -16,7 +16,7 @@ setInterval(callback, timeMilis)
 
 Berikut contoh penerapan `setInterval()`:
 
-```js{10}
+```js
 const setTime = function() {
    const date = new Date()
    const time = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
@@ -26,6 +26,6 @@ const setTime = function() {
 }
 
 // akan terus dijalankan setiap 1 detik
-setInterval(setTime, 1000)
+setInterval(setTime, 1000) // [!code ++]
 console.log('Program Selesai.')
 ```

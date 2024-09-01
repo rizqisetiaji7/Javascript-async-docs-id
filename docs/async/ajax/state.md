@@ -30,16 +30,17 @@ ajax.onreadystatechange = function(ev) {...}
 
 
 ## Contoh Penggunaan
-```js{5-7,9-11}
+
+```js
 const ajax = new XMLHttpRequest();
 ajax.open('GET', 'api/04-hello.json')
 
 // Ready State Change Event
-ajax.onreadystatechange = () => {
-   console.log(`Ready State Change: ${ajax.readyState}`)
-}
+ajax.onreadystatechange = () => { // [!code ++]
+   console.log(`Ready State Change: ${ajax.readyState}`) // [!code ++]
+} // [!code ++]
 // Atau 
-ajax.addEventListener("readystatechange", () => {
-   console.log(`Ready State Change: ${ajax.readyState}`)
-})
+ajax.addEventListener("readystatechange", () => { // [!code ++]
+   console.log(`Ready State Change: ${ajax.readyState}`) // [!code ++]
+}) // [!code ++]
 ```

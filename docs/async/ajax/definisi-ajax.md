@@ -3,7 +3,7 @@ title: 'Pengertian AJAX'
 ---
 
 # AJAX
-## Definisi AJAX
+
 AJAX atau **_(Asynchronous JavaScript and XML)_** digunakan untuk mengambil atau mengirim data ke URL lain. Di JavaScript bisa membuat AJAX dengan menggunakan class `XMLHttpRequest`.
 
 > :memo: **Baca selengkapnya:** [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/load_event)
@@ -14,10 +14,10 @@ Di dalam browser ketika program JavaScript membuat object AJAX, biasanya AJAX ak
 
 Kemudian server akan membalas request AJAX berupa sebuah response yang akan diterima oleh AJAX kembali. Setelah menerima response maka data akan dirender atau ditampilkan pada halaman web atau diproses sesuai kebutuhan.
 
-> [!NOTE] Cara Membuat Object AJAX
-> ```js
-> const ajax = new XMLHttpRequest()
-> ```
+### Membuat Object AJAX
+```js
+const ajax = new XMLHttpRequest()
+```
 
 ## Menerima Data AJAX
 
@@ -25,7 +25,8 @@ Selain mengirim data ke server, AJAX juga bisa menerima atau mendapatkan informa
 
 Untuk mendapatkan informasi response dari AJAX, bisa menggunakan callback yang akan dieksekusi setelah proses AJAX selesai. Untuk menggunakan AJAX callback, bisa menggunakan `'load'` event atau global event seperti `onload`. Lalu untuk mengambil datanya bisa menggunakan property `responseText`.
 
-**Cara menerima response dari AJAX**
+### Load event listener
+
 ```js
 ajax.addEventListener('load', function() { ... })
 // atau
@@ -54,11 +55,11 @@ Implementasi penggunaan `XMLHttpRequest`:
 
 ::: code-group
 ```js [Code]
-const ajax = new XMLHttpRequest();
+const ajax = new XMLHttpRequest(); // [!code ++]
 ajax.open('GET', 'api/jsonurl') // From api url or database
 
-// ajax.onload = () => {  }
-ajax.addEventListener('load', function() {
+ajax.onload = () => { ... } // [!code --]
+ajax.addEventListener('load', function() { // [!code ++]
 	const json = JSON.parse(ajax.responseText)
 
 	const response = document.getElementById('response')

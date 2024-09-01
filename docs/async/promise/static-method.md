@@ -113,7 +113,9 @@ getProduct('product3') // [!code --]
    .catch((error) => /* Do something */) // [!code --]
 ```
 
-Kode diatas tentunya sangat tidak efisien, mengingat bisa saja terjadi lebih banyak pemanggilan promise sekaligus, sehingga akan lebih mudah apabila digabung didalam `Promise.all()`.
+::: tip :bulb: PENTING DIKETAHUI
+Kode diatas tentunya sangat tidak efisien, karena bisa saja ada lebih banyak pemanggilan promise sekaligus, sehingga akan lebih mudah apabila digabung didalam `Promise.all()`.
+:::
 
 ## `Promise.any()`
 

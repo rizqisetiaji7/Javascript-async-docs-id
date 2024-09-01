@@ -28,7 +28,7 @@ Selain menggunakan JSON, terkadang kita hanya ingin mengirim data AJAX menggunak
 Untuk menggunakan `URLSearchParams`, maka harus membuat object instance terlebih dahulu, berikut contoh syntax-nya:
 ```js
 const paramsString = 'q=URLUtils.searchParams&topic=api'
-const searchParams = new URLSearchParams(paramsString)
+const searchParams = new URLSearchParams(paramsString) // [!code ++]
 ```
 Parameter berupa format query string yang berisi key/value, namun bersifat opsional.
 
@@ -37,14 +37,14 @@ Parameter berupa format query string yang berisi key/value, namun bersifat opsio
 Berikut contoh mengirim data menggunakan URLSearchParams, dengan menggunakan API [restcountries.com](https://restcountries.com/)
 
 ::: code-group
-```js{6-7} [Code]
+```js [Code]
 const doSearch = () => {
 	const ajax = new XMLHttpRequest()
 	const search = document.getElementById('search').value
 
 	// Menambahkan query parameter
-	const param = new URLSearchParams()
-	param.append('search', search)
+	const param = new URLSearchParams() // [!code ++]
+	param.append('search', search) // [!code ++]
 
 	ajax.open('GET', `https://restcountries.com/v3.1/name/${search}`)
 	

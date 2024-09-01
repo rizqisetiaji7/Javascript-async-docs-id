@@ -10,20 +10,20 @@ Server biasanya akan mengirimkan HTTP Status Code sesuai jenis responsenya. Untu
 
 > :memo: **Baca selengkapnya:** [XMLHttpRequest Response Status](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/status)
 
-**Response Status**
-```js{2}
+## Status Property
+```js
 const ajax = new XMLHttpRequest()
-console.log(ajax.status) // Unsent = 0
+console.log(ajax.status) // Unsent = 0 // [!code ++]
 ```
 
 ## Contoh Request & Response
 Berikut merupakan contoh request dan response dengan menggunakan AJAX
 
 ::: code-group
-```js{3,17} [Request]
+```js [Request]
 const displayResponse = (json) => {
 	const response = document.getElementById('response')
-	response.textContent = `Response Status (${json.response}) => ${json.message}`
+	response.textContent = `Response Status (${json.response}) => ${json.message}` // [!code ++]
 }
 
 const ajax = new XMLHttpRequest();
@@ -37,7 +37,7 @@ ajax.addEventListener('load', function() {
 		displayResponse(json)
 	} else {
 		displayResponse({
-			response: ajax.status,
+			response: ajax.status, // [!code ++]
 			message: 'Oops, terjadi kesalahan.'
 		})
 	}

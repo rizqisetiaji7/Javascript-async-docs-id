@@ -6,8 +6,9 @@ title: Await
 
 Await digunakan untuk mendapatkan value hasil dari Promise. Sebelumnya untuk mendapatkan response data, kita menggunakan method `then()` yang bersisi `callback` datanya. Dengan menggunakan Await, kita bisa menunggu hingga datanya ada dan memprosesnya dengan mudah sesuai kebutuhan.
 
-> [!IMPORTANT] PENTING
-> Await hanya bisa digunakan dalam Async Function. Jadi, jika mengambil data dari Promise menggunakan Await, hanya boleh dilakukan ketika function tersebut didefinisikan sebagai Async Function.
+::: tip :bulb: PENTING DIKETAHUI
+Await hanya bisa digunakan dalam Async Function. Jadi, jika mengambil data dari Promise menggunakan Await, hanya boleh dilakukan ketika function tersebut didefinisikan sebagai Async Function.
+:::
 
 ## Menggunakan Await
 
