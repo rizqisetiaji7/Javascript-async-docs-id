@@ -43,7 +43,7 @@ export const SIDEBAR_LINKS = {
 				text: 'AJAX',
 				collapsed: false,
 				items: [
-					{ text: 'Definisi', link: '/docs/async/ajax/definisi-ajax' },
+					{ text: 'Definisi AJAX', link: '/docs/async/ajax/definisi-ajax' },
 					{ text: 'Response Status', link: '/docs/async/ajax/response-status' },
 					{ text: 'AJAX State', link: '/docs/async/ajax/state' },
 					{ text: 'Mengirim Data', link: '/docs/async/ajax/send-data' },
@@ -56,7 +56,7 @@ export const SIDEBAR_LINKS = {
 				text: 'Promise',
 				collapsed: false,
 				items: [
-					{ text: 'Definisi', link: '/docs/async/promise/definisi-promise' },
+					{ text: 'Definisi Promise', link: '/docs/async/promise/definisi-promise' },
 					{ text: 'Promise Method', link: '/docs/async/promise/promise-method' },
 					{ text: 'Promise Static Method', link: '/docs/async/promise/static-method' },
 				]
@@ -65,7 +65,7 @@ export const SIDEBAR_LINKS = {
 				text: 'Fetch API',
 				collapsed: false,
 				items: [
-					{ text: 'Definisi', link: '/docs/async/fetch-api/definisi-fetch-api' },
+					{ text: 'Definisi Fetch API', link: '/docs/async/fetch-api/definisi-fetch-api' },
 					{ text: 'Request Object', link: '/docs/async/fetch-api/request' },
 					{ text: 'Response Object', link: '/docs/async/fetch-api/response' },
 				]
@@ -74,7 +74,7 @@ export const SIDEBAR_LINKS = {
 				text: 'Async Await',
 				collapsed: false,
 				items: [
-					{ text: 'Definisi', link: '/docs/async/async-await/definisi-async-await' },
+					{ text: 'Definisi Async Await', link: '/docs/async/async-await/definisi-async-await' },
 					{ text: 'Async', link: '/docs/async/async-await/async' },
 					{ text: 'Await', link: '/docs/async/async-await/await' },
 					{ text: 'Error Handling', link: '/docs/async/async-await/error-handling' },
@@ -85,7 +85,7 @@ export const SIDEBAR_LINKS = {
 				collapsed: false,
 				items: [
 					{ text: 'Javascript Thread', link: '/docs/async/web-worker/thread' },
-					{ text: 'Definisi', link: '/docs/async/web-worker/definisi-web-worker' },
+					{ text: 'Definisi Web Worker', link: '/docs/async/web-worker/definisi-web-worker' },
 					{ text: 'Worker Object', link: '/docs/async/web-worker/worker-object' },
 				]
 			},
