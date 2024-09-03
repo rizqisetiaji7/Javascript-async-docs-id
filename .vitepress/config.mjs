@@ -7,6 +7,7 @@ export default defineConfig({
   title: "JavaScript Docs",
   description: "JavaScript Dokumentasi Bahasa Indonesia",
   cleanUrls: true,
+  ignoreDeadLinks: true,
   markdown: {
     theme: {
       light: 'github-light',
