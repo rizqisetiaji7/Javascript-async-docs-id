@@ -24,6 +24,12 @@ export const SIDEBAR_LINKS = {
 		text: 'JavaScript DOM',
 		items: [
 			{ text: 'Intro', link: '/docs/dom/' },
+			{ text: 'Document Object Model', link: '/docs/dom/document-object-model' },
+			{ text: 'Document',  link: '/docs/dom/document' },
+			{ text: 'Node',  link: '/docs/dom/node' },
+			{ text: 'Element',  link: '/docs/dom/element' },
+			{ text: 'Create Element',  link: '/docs/dom/create-element' },
+			{ text: 'NodeList',  link: '/docs/dom/nodelist' },
 		]
 	},
 	
