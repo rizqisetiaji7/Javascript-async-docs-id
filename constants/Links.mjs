@@ -31,6 +31,7 @@ export const SIDEBAR_LINKS = {
 			{ text: 'Create Element',  link: '/docs/dom/create-element' },
 			{ text: 'NodeList',  link: '/docs/dom/nodelist' },
 			{ text: 'Attribute',  link: '/docs/dom/attribute' },
+			{ text: 'NamedNodeMap',  link: '/docs/dom/named-node-map' },
 		]
 	},
 	
