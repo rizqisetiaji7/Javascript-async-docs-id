@@ -56,9 +56,9 @@ const menu2 = document.getElementById('menu2').childNodes
 console.log(menu2)
 ```
 
-```sh [Console]
+```log [Console]
 # list
-> NodeList(6) 
+NodeList(6) 
    [0] : li#first
    [1] : li#second
    [2] : li#third
@@ -67,7 +67,7 @@ console.log(menu2)
    [5] : li
 
 # menu1
-> NodeList(7) 
+NodeList(7) 
    [0] : text
    [1] : li#first
    [2] : text
@@ -77,7 +77,7 @@ console.log(menu2)
    [6] : text
 
 # menu2
-> NodeList(7) 
+NodeList(7) 
    [0] : text
    [1] : li
    [2] : text
@@ -117,8 +117,9 @@ Saat menggunakan `Element.childNodes`, NodeList tersebut bersifat _Live_. Sedang
 </script>
 ```
 
-```sh [Console]
-> NodeList(9) 
+```log [Console]
+# Live NodeList
+NodeList(9) 
    [0] : text
    [1] : li#first
    [2] : text
@@ -126,8 +127,8 @@ Saat menggunakan `Element.childNodes`, NodeList tersebut bersifat _Live_. Sedang
    [4] : text
    [5] : li#third
    [6] : text
-   [7] : li # [!code ++]
-   [8] : li # [!code ++]
+   [7] : li // [!code ++]
+   [8] : li // [!code ++]
 ```
 :::
 
@@ -160,9 +161,9 @@ Pada contoh kode diatas, jumlah NodeList pada variable `list1` akan bertambah me
 </script>
 ```
 
-```sh [Console]
+```log [Console]
 # Static NodeList
-> NodeList(6)
+NodeList(6)
    [0] : li#first
    [1] : li#second
    [2] : li#third

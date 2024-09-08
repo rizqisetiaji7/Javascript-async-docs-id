@@ -36,9 +36,9 @@ console.log(attr.name)
 console.log(attr.value)
 ```
 
-```sh [Console]
-> src
-> https://imageurl.com/img-1.jpg
+```log [Console]
+src
+https://imageurl.com/img-1.jpg
 ```
 :::
 
