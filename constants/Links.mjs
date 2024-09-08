@@ -32,6 +32,16 @@ export const SIDEBAR_LINKS = {
 			{ text: 'NodeList',  link: '/docs/dom/nodelist' },
 			{ text: 'Attribute',  link: '/docs/dom/attribute' },
 			{ text: 'NamedNodeMap',  link: '/docs/dom/named-node-map' },
+			{ text: 'Text Node',  link: '/docs/dom/text-node' },
+			{
+				text: 'Event Handler',
+				collapsed: false,
+				items: [
+					{ text: 'Intro: Event Handler', link: '/docs/dom/event-handler' },
+					{ text: 'Event Target', link: '/docs/dom/event-target' },
+					{ text: 'Global Event Handler', link: '/docs/dom/global-event-handler' },
+				]
+			},
 		]
 	},
 	
