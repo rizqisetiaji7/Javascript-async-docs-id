@@ -30,6 +30,7 @@ export const SIDEBAR_LINKS = {
 			{ text: 'Element',  link: '/docs/dom/element' },
 			{ text: 'Create Element',  link: '/docs/dom/create-element' },
 			{ text: 'NodeList',  link: '/docs/dom/nodelist' },
+			{ text: 'Attribute',  link: '/docs/dom/attribute' },
 		]
 	},
 	
