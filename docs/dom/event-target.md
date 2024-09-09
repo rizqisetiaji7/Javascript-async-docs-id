@@ -39,6 +39,7 @@ Sebagai contoh penggunaan Event Type `'click'`, yang berfungsi ketika mengklik s
 <script>
    const button = document.getElementById('clickMe')
 
+   // Event Target
    button.addEventListener('click', function() { // [!code ++]
       button.setAttribute('You already click me!') // [!code ++]
    }) // [!code ++]
