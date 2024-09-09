@@ -6,7 +6,7 @@ title: Event | JS DOM
 
 [DOM](/docs/dom/document-object-model) memiliki banyak sekali Event, tidak hanya `'click'` saja. Jenis Event biasanya disesuaikan dengan [Event Target-nya](/docs/dom/event-target). Contohnya, pada element video terdapat event `'play'`, `'pause'`, sedangkan pada element button tidak ada event `'play'` atau `'pause'`, dll.
 
-> :memo: **Baca selengkapnya:** [Event](https://developer.mozilla.org/en-US/docs/Web/Events)
+> :memo: **Baca selengkapnya:** [Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 **Element: click event**
 
@@ -30,3 +30,60 @@ Sebagai contoh penggunaan Element: click event terdapat data berupa `MouseEvent`
 | Loading/Unloading Document | Event yang berkaitan dengan loading dan unloading dokumen |
 | Media | Event yang terkait dengan penggunaan media (termasuk Media Capture dan Streams API, Web Audio API, Picture-in-Picture API, dll) |
 | Print | Event yang berhubungan dengan pencetakan |
+
+## Event Callback
+
+Saat membuat callback untuk [Event Handler](/docs/dom/event-handler), disana dapat menerima data event yang memicu terjadinya event tersebut. Data event tersebut berbeda-beda tergantung jenis event-nya. Contohnya untuk event `'click'` data event-nya berupa `MouseEvent` (bisa data berupa lokasi koordinat x,y mouse ketika di klik, dll).
+
+> :memo: **Baca selengkapnya:** [Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+
+## Contoh: MouseEvent Property
+
+1. `MouseEvent.altKey`
+2. `MouseEvent.ctrlKey`
+3. `MouseEvent.shiftKey`
+4. `MouseEvent.button`
+5. `MouseEvent.buttons`
+6. `MouseEvent.clientX`
+7. `MouseEvent.clientY`
+8. `MouseEvent.offsetX`
+9. `MouseEvent.offsetY`
+
+## Contoh: KeyboardEvent Property
+
+1. `KeyboardEvent.keyup`
+2. `KeyboardEvent.keydown`
+3. `KeyboardEvent.keypress`
+4. `KeyboardEvent.altKey`
+5. `KeyboardEvent.ctrlKey`
+6. `KeyboardEvent.code`
+7. `KeyboardEvent.key`
+
+Dan masih banyak lagi `Event` yang bisa digunakan pada DOM.
+
+## Kode: Event
+
+Berikut contoh menggunakan Event dengan menggunakan `MouseEvent` click, untuk melihat posisi koordinat x, dan y ketika di klik:
+
+```html [HTML]
+<style>
+   #canvas {
+      width: 100%; 
+      height: 320px; 
+      max-width:320px; 
+      background-color: #f4d41e;
+   }
+</style>
+
+<h4 id="text">Click Yellow Box</h4>
+<div id="canvas"></div>
+
+<script>
+   const text = document.getElementById('text')
+   const canvas = document.getElementById('canvas')
+
+   canvas.onclick = (event) => {
+      text.innerHTML = `You clicked at (${event.x}, ${event.y})`
+   }
+</script>
+```
