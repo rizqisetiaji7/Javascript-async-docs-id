@@ -42,7 +42,8 @@ export const SIDEBAR_LINKS = {
 					{ text: 'Global Event Handler', link: '/docs/dom/global-event-handler' },
 				]
 			},
-			{ text: 'Event', link: '/docs/dom/event' }
+			{ text: 'Event', link: '/docs/dom/event' },
+			{ text: 'Style', link: '/docs/dom/style' },
 		]
 	},
 	
