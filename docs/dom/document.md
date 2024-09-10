@@ -69,8 +69,7 @@ Serta masih banyak lagi document method yang bisa dimanfaatkan.
 
 Berikut contoh penggunaan document method untuk menyeleksi element berdasarkan id:
 
-::: code-group
-```html [index.html]
+```html
 <p id="text">Test seleksi element.</p>
 
 <script>
@@ -78,4 +77,3 @@ Berikut contoh penggunaan document method untuk menyeleksi element berdasarkan i
    console.log(text)
 </script>
 ```
-:::

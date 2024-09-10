@@ -54,7 +54,7 @@ Lalu untuk mendapatkan isi dari Text Node nya bisa menggunakan property `wholeTe
 console.log(text.wholeText)
 ```
 
-```log [Console]
+``` [Console]
 Lorem ipsum dolor sit amet.
 ```
 :::

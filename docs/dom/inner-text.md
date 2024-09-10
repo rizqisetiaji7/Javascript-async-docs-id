@@ -36,7 +36,7 @@ Perbedaan antara `innerText` dan `textContent` ada pada konten yang dikembalikan
 
 Tag `<script>` didalam element content tidak akan diambil kecuali isinya, beserta text lainnya termasuk `spasi`, `enter`, dan `tab`.
 
-```log
+```
    console.log('Hello World')
 Ini contoh text
 ```
@@ -45,6 +45,6 @@ Ini contoh text
 
 Tag `<script>` beserta isinya tidak akan diambil, kecuali hanya text saja didalam element content.
 
-```log
+```
 Ini contoh text
 ```

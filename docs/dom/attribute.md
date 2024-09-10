@@ -36,7 +36,7 @@ console.log(attr.name)
 console.log(attr.value)
 ```
 
-```log [Console]
+``` [Console]
 src
 https://imageurl.com/img-1.jpg
 ```

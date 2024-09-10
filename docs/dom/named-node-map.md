@@ -48,7 +48,7 @@ for (const attribute of attributes) {
 }
 ```
 
-```log [Console]
+``` [Console]
 id : img
 src : https://imageurl.com/img-1.jpg
 alt : example img
