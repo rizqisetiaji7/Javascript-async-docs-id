@@ -129,7 +129,7 @@ export const NAV_LINKS = [
 			{ text: 'JavaScript Async', link: '/docs/async/' },
 		],
 	},
-	{ text: 'Referensi', link: '/references/' }
+	{ text: 'Referensi', link: '/docs/references/' }
 ]
 
 export const SOCIAL_LINKS = [
