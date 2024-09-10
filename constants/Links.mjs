@@ -106,13 +106,7 @@ export const SIDEBAR_LINKS = {
 				]
 			},
 		]
-	},
-	'/references/': [
-		{
-			text: 'Referensi',
-			link: '/references/'
-		}
-	]
+	}
 }
 
 
