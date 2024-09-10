@@ -40,6 +40,7 @@ export const SIDEBAR_LINKS = {
 			{ text: 'Style', link: '/docs/dom/style' },
 			{ text: 'InnerText', link: '/docs/dom/inner-text' },
 			{ text: 'InnerHTML', link: '/docs/dom/inner-html' },
+			{ text: 'Window', link: '/docs/dom/window' },
 		]
 	},
 	
