@@ -86,7 +86,6 @@ form.onsubmit = function(event) {
    commentItem.textContent = `${commentValue} - ${fromValue}`
    commentList.appendChild(commentItem)
 
-   document.forms['commentForm'].reset() // [!code --]
    form.reset() // [!code ++]
 }
 ```
