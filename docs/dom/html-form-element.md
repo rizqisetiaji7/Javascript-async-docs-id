@@ -50,3 +50,48 @@ Berikut beberapa contoh event yang digunakan pada HTML Form Element:
 | `formData` | Event `formdata` diaktifkan setelah daftar entri yang mewakili data form dibuat. |
 | `reset` | Event `reset` diaktifkan ketika form direset. |
 | `submit` | Event `submit` diaktifkan ketika form dikirimkan. |
+
+## Kode: HTML Form Element
+
+Berikut contoh kode HTML Form Element, dengan memanfaatkan method dan event seperti berikut:
+
+::: code-group
+```html [Form]
+<form name="commentForm">
+   <label for="comment">
+      Comment: <input type="text" id="comment" name="comment" placeholder="Comment" />
+   </label>
+   <label for="from">
+      From: <input type="text" id="from" name="from" placeholder="From" />
+   </label>
+   <button type="submit">Submit</button>
+</form>
+
+<div id="commentList"></div>
+```
+
+```js [JavaScript]
+const form = document.querySelector('form[name=commentForm]')
+
+form.onsubmit = function(event) {
+   event.preventDefault()
+   
+   const commentList = document.getElementById('commentList')
+
+   // Get input value
+   const commentValue = document.getElementById('comment').value // [!code ++]
+   const fromValue = document.getElementById('from').value // [!code ++]
+
+   const commentItem = document.createElement('p')
+   commentItem.textContent = `${commentValue} - ${fromValue}`
+   commentList.appendChild(commentItem)
+
+   document.forms['commentForm'].reset() // [!code --]
+   form.reset() // [!code ++]
+}
+```
+
+``` [Example Output]
+Hello, this is example comment - John Doe
+```
+:::
