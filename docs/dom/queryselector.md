@@ -187,3 +187,89 @@ NodeList(1)
 
 ## Attribute Selector
 
+Merupakan selector yang digunakan untuk menyeleksi element berdasarkan attribute-nya. Format penulisan selector `'[attribute]'`, atau bisa juga dengan menuliskan tag tertentu seperti `'div[attribute]'`.
+
+> :memo: **Baca selengkapnya:** [Attribute Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+Berikut implementasi dalam DOM di javascript:
+
+```js
+document.querySelector('[data-id]')
+
+document.querySelectorAll('div[className]')
+```
+
+### Kode: Attribute Selector
+
+::: code-group
+
+```html
+<ul>
+   <li class="list-item">One</li>
+   <li class="list-item">Two</li>
+   <li class="list-item">Three</li>
+   <li>Four</li>
+</ul>
+
+<button type="button">My Button</button>
+```
+
+```js [JavaScript]
+const button = document.querySelector('[type=button]')
+const menuItems = document.querySelectorAll('li[class]')
+
+console.log(button)
+console.log(menuItems)
+```
+
+``` [Console]
+<button type="button">My Button</button>
+
+NodeList(3)
+   [0] : li.list-item
+   [1] : li.list-item
+   [2] : li.list-item
+   length : 3
+```
+:::
+
+## Operator Attribute Selector
+
+Pada attribute selector juga bisa menggunakan operator untuk menyeleksi element berdasarkan value dari attribute tersebut. Misalnya `'[attribute=value]'`, `'[attribute^=value]'`, dll.
+
+Contohnya ketika akan mengambil element berdasarkan attribute dengan prefix tertentu seperti kode berikut: 
+
+```js
+document.querySelectorAll('li[class^="list"]')
+```
+
+Pada kode diatas, tidak peduli nama classnya apa saja, yang penting pada prefixnya terdapat kata `'list'`.
+
+### Kode: Operator Attr Selector
+
+Contoh seleksi attribute selector operator pada list berikut:
+
+::: code-group
+```html [HTML]
+<ul>
+   <li class="list">One</li>
+   <li class="listTwo">Two</li>
+   <li class="listThree">Three</li>
+   <li class="fourlist">Four</li>
+   <li class="fivelist">Five</li>
+</ul>
+```
+
+```js [JavaScript]
+const listItemsPrefix = document.querySelectorAll('li[class^="list"]')
+console.log(listItemsPrefix)
+```
+
+``` [Console]
+NodeList(3)
+   [0] : li.list
+   [1] : li.listTwo
+   [2] : li.listThree
+   length : 3
+```
+:::
