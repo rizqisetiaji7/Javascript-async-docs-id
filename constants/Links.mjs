@@ -46,6 +46,7 @@ export const SIDEBAR_LINKS = {
 			{ text: 'HTML Element', link: '/docs/dom/html-element' },
 			{ text: 'HTML Form Element', link: '/docs/dom/html-form-element' },
 			{ text: 'HTML Form Name', link: '/docs/dom/html-form-name' },
+			{ text: 'HTML Table Element', link: '/docs/dom/html-table-element' },
 		]
 	},
 	
