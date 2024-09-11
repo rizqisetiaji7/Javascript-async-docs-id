@@ -1,5 +1,5 @@
 ---
-title: Node Type
+title: Node Type | JS DOM
 ---
 
 # Node Type
