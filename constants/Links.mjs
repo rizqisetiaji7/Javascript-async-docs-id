@@ -45,6 +45,7 @@ export const SIDEBAR_LINKS = {
 			{ text: 'Node Type', link: '/docs/dom/node-type' },
 			{ text: 'HTML Element', link: '/docs/dom/html-element' },
 			{ text: 'HTML Form Element', link: '/docs/dom/html-form-element' },
+			{ text: 'HTML Form Name', link: '/docs/dom/html-form-name' },
 		]
 	},
 	
