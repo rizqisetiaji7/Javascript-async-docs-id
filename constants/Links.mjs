@@ -44,6 +44,7 @@ export const SIDEBAR_LINKS = {
 			{ text: 'QuerySelector', link: '/docs/dom/queryselector' },
 			{ text: 'Node Type', link: '/docs/dom/node-type' },
 			{ text: 'HTML Element', link: '/docs/dom/html-element' },
+			{ text: 'HTML Form Element', link: '/docs/dom/html-form-element' },
 		]
 	},
 	
