@@ -42,6 +42,7 @@ export const SIDEBAR_LINKS = {
 			{ text: 'InnerHTML', link: '/docs/dom/inner-html' },
 			{ text: 'Window', link: '/docs/dom/window' },
 			{ text: 'QuerySelector', link: '/docs/dom/queryselector' },
+			{ text: 'Node Type', link: '/docs/dom/node-type' },
 		]
 	},
 	
