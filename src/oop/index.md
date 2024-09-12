@@ -10,7 +10,10 @@ Pada modul kali ini akan mempelajari OOP atau _"Object Oriented Programming"_ di
 
 Berikut list materi JavaScript OOP yang akan dipelajari:
 
-- Materi 1
-- Materi 2
-- Materi 3
-- Materi 4
+- Pengenalan Object Oriented Programming
+- Class
+- Object
+- Inheritance
+- Iterable & Iterators
+- Standard JavaScript Classes
+- Dll.
