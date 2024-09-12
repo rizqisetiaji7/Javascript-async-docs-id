@@ -2,18 +2,26 @@ export const SIDEBAR_LINKS = {
 	'/oop/': {
 		text: 'JavaScript OOP',
 		items: [
+			{ text: 'Agenda Belajar', link: '/oop/' },
+			{ text: 'Pengenalan OOP', link: '/oop/pengenalan-oop' },
+			{ text: 'Membuat Object', link: '/oop/create-object' },
 			{
-				text: 'Intro',
-				collapsed: false,
+				text: 'Constructor',
+				collapsed: true,
 				items: [
-					{ text: 'Agenda Belajar', link: '/oop/' },
-					{ text: 'Pengenalan OOP', link: '/oop/pengenalan-oop' },
+					{ text: 'Constructor Function', link: '/oop/constructor-function' },
+					{ text: 'Const. Function Param', link: '/oop/constructor-function-param' },
+					{ text: 'Constructor Inheritance', link: '/oop/constructor-inheritance' },
 				]
 			},
-			{ text: 'Membuat Object', link: '/oop/create-object' },
-			{ text: 'Constructor Function', link: '/oop/constructor-function' },
-			{ text: 'Const. Function Param', link: '/oop/constructor-function-param' },
-			{ text: 'Constructor Inheritance', link: '/oop/constructor-inheritance' },
+			{
+				text: 'Prototype',
+				collapsed: true,
+				items: [
+					{ text: 'Pengenalan Prototype', link: '/oop/prototype' },
+					{ text: 'Prototype Inheritance', link: '/oop/prototype-inheritance' },
+				]
+			},
 			{
 				text: 'Example',
 				collapsed: true,
