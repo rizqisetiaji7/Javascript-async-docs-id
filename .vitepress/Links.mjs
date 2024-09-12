@@ -10,6 +10,10 @@ export const SIDEBAR_LINKS = {
 					{ text: 'Pengenalan OOP', link: '/oop/pengenalan-oop' },
 				]
 			},
+			{ text: 'Membuat Object', link: '/oop/create-object' },
+			{ text: 'Constructor Function', link: '/oop/constructor-function' },
+			{ text: 'Const. Function Param', link: '/oop/constructor-function-param' },
+			{ text: 'Constructor Inheritance', link: '/oop/constructor-inheritance' },
 			{
 				text: 'Example',
 				collapsed: true,
