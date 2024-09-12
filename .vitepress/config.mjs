@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { NAV_LINKS, SIDEBAR_LINKS, SOCIAL_LINKS } from '../constants/Links.mjs'
+import { NAV_LINKS, SIDEBAR_LINKS, SOCIAL_LINKS } from './Links.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,6 +8,7 @@ export default defineConfig({
   description: "JavaScript Dokumentasi Bahasa Indonesia",
   cleanUrls: true,
   ignoreDeadLinks: true,
+  srcDir: 'src',
   markdown: {
     theme: {
       light: 'github-light',
