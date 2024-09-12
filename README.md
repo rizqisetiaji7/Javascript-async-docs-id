@@ -14,7 +14,7 @@ npm install
 
 **Jalankan local server**
 ```
-npm run docs:dev
+npm run dev
 ```
 
 **Buka browser dan ketik url**
