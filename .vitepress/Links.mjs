@@ -2,7 +2,21 @@ export const SIDEBAR_LINKS = {
 	'/oop/': {
 		text: 'JavaScript OOP',
 		items: [
-			{ text: 'Intro', link: '/oop/' },
+			{
+				text: 'Intro',
+				collapsed: false,
+				items: [
+					{ text: 'Agenda Belajar', link: '/oop/' },
+					{ text: 'Pengenalan OOP', link: '/oop/pengenalan-oop' },
+				]
+			},
+			{
+				text: 'Example',
+				collapsed: true,
+				items: [
+					{ text: 'Link 1', link: '/oop/link1' },
+				]
+			},
 		]
 	},
 
