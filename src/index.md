@@ -31,7 +31,7 @@ features:
 
   - title: JavaScript Standard Library
     details: Belajar JavaScript Standard Library Bahasa Indonesia
-    link: /std-library/
+    link: /standard-library/
     linkText: Selengkapnya
 
   - title: JavaScript Modules
