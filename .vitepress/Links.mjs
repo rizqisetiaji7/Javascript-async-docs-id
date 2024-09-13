@@ -7,28 +7,39 @@ export const SIDEBAR_LINKS = {
 			{ text: 'Membuat Object', link: '/oop/create-object' },
 			{
 				text: 'Constructor',
-				collapsed: true,
+				collapsed: false,
 				items: [
 					{ text: 'Constructor Function', link: '/oop/constructor-function' },
 					{ text: 'Const. Function Param', link: '/oop/constructor-function-param' },
 					{ text: 'Constructor Inheritance', link: '/oop/constructor-inheritance' },
 				]
 			},
+			{ text: 'Prototype', link: '/oop/prototype' },
+			{ text: 'Prototype Inheritance', link: '/oop/prototype-inheritance' },
 			{
-				text: 'Prototype',
-				collapsed: true,
+				text: 'Class',
+				collapsed: false,
 				items: [
-					{ text: 'Pengenalan Prototype', link: '/oop/prototype' },
-					{ text: 'Prototype Inheritance', link: '/oop/prototype-inheritance' },
+					{ text: 'Class Keyword', link: '/oop/class-keyword' },
+					{ text: 'Class Constructor', link: '/oop/class-constructor' },
+					{ text: 'Class Property', link: '/oop/class-property' },
+					{ text: 'Class Method', link: '/oop/class-method' },
+					{ text: 'Class Inheritance', link: '/oop/class-inheritance' },
+					{ text: 'Class Super Constructor', link: '/oop/class-super-constructor' },
+					{ text: 'Class Super Method', link: '/oop/class-super-method' },
+					{ text: 'Class Getter Setter', link: '/oop/class-getter-setter' },
+					{ text: 'Class Public Field', link: '/oop/class-public-field' },
+					{ text: 'Class Private Field', link: '/oop/class-private-field' },
+					{ text: 'Class Private Method', link: '/oop/class-private-method' },
 				]
 			},
-			{
-				text: 'Example',
-				collapsed: true,
-				items: [
-					{ text: 'Link 1', link: '/oop/link1' },
-				]
-			},
+			{ text: 'Operator Instanceof', link: '/oop/operator-instanceof' },
+			{ text: 'Static Field', link: '/oop/static-field' },
+			{ text: 'Static method', link: '/oop/static-method' },
+			{ text: 'Error', link: '/oop/error' },
+			{ text: 'Error Handling', link: '/oop/error-handling' },
+			{ text: 'Class Error Manual', link: '/oop/class-error-manual' },
+			{ text: 'Iterable & Iterator', link: '/oop/iterable-iterator' },
 		]
 	},
 
