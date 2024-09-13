@@ -43,17 +43,88 @@ export const SIDEBAR_LINKS = {
 		]
 	},
 
-	'/std-library/': {
+	'/standard-library/': {
 		text: 'JavaScript Standard Library',
 		items: [
-			{ text: 'Intro', link: '/std-library/' },
+			{ text: 'Agenda', link: '/standard-library/' },
+			{ 
+				text: 'Number', 
+				collapsed: false,
+				items: [
+					{ text: 'Intro: Number', link: '/standard-library/number' },
+					{ text: 'Number Static Property', link: '/standard-library/number-static-property' },
+					{ text: 'Number Static Method', link: '/standard-library/number-static-method' },
+					{ text: 'Number Instance Method', link: '/standard-library/number-instance-method' },
+				] 
+			},
+			{
+				text: 'String',
+				collapsed: false,
+				items: [
+					{ text: 'Intro: String', link: '/standard-library/string' },
+					{ text: 'Instance Method & Property', link: '/standard-library/string-instance-method-and-property' },
+				]
+			},
+			{ 
+				text: 'Array', 
+				collapsed: false,
+				items: [
+					{ text: 'Intro: Array', link: '/standard-library/array' },
+					{ text: 'Array Loop', link: '/standard-library/array-loop' },
+					{ text: 'Array Queue', link: '/standard-library/array-queue' },
+					{ text: 'Array Stack', link: '/standard-library/array-stack' },
+					{ text: 'Array Search', link: '/standard-library/array-search' },
+					{ text: 'Array Filter', link: '/standard-library/array-filter' },
+					{ text: 'Array Transform', link: '/standard-library/array-transform' },
+				] 
+			},
+			{
+				text: 'Object',
+				collapsed: false,
+				items: [
+					{ text: 'Intro: Object', link: '/standard-library/object' },
+					{ text: 'Object Freeze & Seal', link: '/standard-library/object-freeze-and-seal' },
+					{ text: 'Object Assign', link: '/standard-library/object-assign' },
+					{ text: 'Object Property Name & Value', link: '/standard-library/object-property-name-and-value' },
+				]
+			},
+			{
+				text: 'JavaSript Object Notation',
+				collapsed: false,
+				items: [
+					{ text: 'Intro: JSON', link: '/standard-library/json-intro' },
+					{ text: 'JSON', link: '/standard-library/json' },
+				]
+			},
+			{
+				text: 'Date',
+				collapsed: false,
+				items: [
+					{ text: 'Intro: Date', link: '/standard-library/date' },
+					{ text: 'Epoch & UNIX Timestamp', link: '/standard-library/epoch-unix-timestamp' },
+					{ text: 'Date Parsing', link: '/standard-library/date-parsing' },
+					{ text: 'Date Getter & Setter', link: '/standard-library/date-getter-and-setter' },
+				]
+			},
+			{ text: 'BigInt', link: '/standard-library/bigint' },
+			{ text: 'Math', link: '/standard-library/math' },
+			{ text: 'Boolean', link: '/standard-library/boolean' },
+			{ text: 'Map', link: '/standard-library/map' },
+			{ text: 'Set', link: '/standard-library/set' },
+			{ text: 'Symbol', link: '/standard-library/symbol' },
+			{ text: 'RegExp', link: '/standard-library/regexp' },
+			{ text: 'Proxy', link: '/standard-library/proxy' },
+			{ text: 'Reflect', link: '/standard-library/reflect' },
+			{ text: 'Encode', link: '/standard-library/encode' },
+			{ text: 'Base64', link: '/standard-library/base64' },
+			{ text: 'Eval', link: '/standard-library/eval' },
 		]
 	},
 
 	'/js-modules/': {
 		text: 'JavaScript Modules',
 		items: [
-			{ text: 'Intro', link: '/js-modules/' },
+			{ text: 'Agenda', link: '/js-modules/' },
 		]
 	},
 
@@ -167,7 +238,7 @@ export const NAV_LINKS = [
 		text: 'Materi', 
 		items: [
 			{ text: 'JavaScript OOP', link: '/oop/' },
-			{ text: 'JavaScript Std. Library', link: '/std-library/' },
+			{ text: 'JavaScript Std. Library', link: '/standard-library/' },
 			{ text: 'JavaScript Modules', link: '/js-modules/' },
 			{ text: 'JavaScript DOM', link: '/dom/' },
 			{ text: 'JavaScript Async', link: '/async/' },
