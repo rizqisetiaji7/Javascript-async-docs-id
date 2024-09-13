@@ -21,30 +21,52 @@ hero:
       link: https://developer.mozilla.org/en-US/docs/Web/API
 
 features:
-#  - icon:
-#      src: /vitepress-logo-large.webp
-#      alt: 'javascript oop icon'
-  - title: JavaScript OOP
+  - icon:
+      src: /favicon.ico
+      alt: 'javascript oop icon'
+      width: 32
+      height: 32
+    title: JavaScript OOP
     details: Belajar JavaScript OOP Bahasa Indonesia.
     link: /oop/
     linkText: Selengkapnya
 
-  - title: JavaScript Standard Library
+  - icon:
+      src: /favicon.ico
+      alt: 'javascript oop icon'
+      width: 32
+      height: 32
+    title: JavaScript Standard Library
     details: Belajar JavaScript Standard Library Bahasa Indonesia
     link: /standard-library/
     linkText: Selengkapnya
 
-  - title: JavaScript Modules
+  - icon:
+      src: /favicon.ico
+      alt: 'javascript oop icon'
+      width: 32
+      height: 32
+    title: JavaScript Modules
     details: Belajar Modern JavaScript Modules Bahasa Indonesia
     link: /js-modules/
     linkText: Selengkapnya
 
-  - title: Document Object Model
+  - icon:
+      src: /favicon.ico
+      alt: 'javascript oop icon'
+      width: 32
+      height: 32
+    title: Document Object Model
     details: Belajar JavaScript DOM Bahasa Indonesia
     link: /dom/
     linkText: Selengkapnya
 
-  - title: JavaScript Async
+  - icon:
+      src: /favicon.ico
+      alt: 'javascript oop icon'
+      width: 32
+      height: 32
+    title: JavaScript Async
     details: Belajar JavaScript Asynchronous Bahasa Indonesia
     link: /async/
     linkText: Selengkapnya
