@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { NAV_LINKS, SIDEBAR_LINKS, SOCIAL_LINKS } from './Links.mjs'
+import links from './Links.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,12 +20,8 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-
     logo: '/favicon.ico',
-    
-    nav: NAV_LINKS,
-    sidebar: SIDEBAR_LINKS,
-    socialLinks: SOCIAL_LINKS,
     outline: 'deep',
+    ...links,
   }
 })
