@@ -1,4 +1,4 @@
-export const SIDEBAR_LINKS = {
+const SIDEBAR_LINKS = {
 	'/oop/': {
 		text: 'JavaScript OOP',
 		items: [
@@ -222,6 +222,7 @@ export const SIDEBAR_LINKS = {
 			},
 		]
 	},
+
 	'/references/': [
 		{
 			text: 'Referensi',
@@ -230,8 +231,7 @@ export const SIDEBAR_LINKS = {
 	]
 }
 
-
-export const NAV_LINKS = [
+const NAV_LINKS = [
 	{ text: 'Web API', link: 'https://developer.mozilla.org/en-US/docs/Web/API' },
 	{ text: 'Docs', link: '/docs' },
 	{ 
@@ -247,6 +247,14 @@ export const NAV_LINKS = [
 	{ text: 'Referensi', link: '/references' }
 ]
 
-export const SOCIAL_LINKS = [
+const SOCIAL_LINKS = [
 	{ icon: 'github', link: 'https://github.com/rizqisetiaji7/Javascript-pzn-docs-id' }
 ]
+
+const links = {
+	nav: NAV_LINKS,
+	sidebar: SIDEBAR_LINKS,
+	socialLinks: SOCIAL_LINKS,
+}
+
+export default links
