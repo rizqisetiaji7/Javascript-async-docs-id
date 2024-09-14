@@ -121,10 +121,10 @@ export const SIDEBAR_LINKS = {
 		]
 	},
 
-	'/js-modules/': {
+	'/javascript-modules/': {
 		text: 'JavaScript Modules',
 		items: [
-			{ text: 'Agenda', link: '/js-modules/' },
+			{ text: 'Agenda', link: '/javascript-modules/' },
 		]
 	},
 
