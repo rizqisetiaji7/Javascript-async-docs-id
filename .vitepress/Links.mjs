@@ -239,7 +239,7 @@ export const NAV_LINKS = [
 		items: [
 			{ text: 'JavaScript OOP', link: '/oop/' },
 			{ text: 'JavaScript Std. Library', link: '/standard-library/' },
-			{ text: 'JavaScript Modules', link: '/js-modules/' },
+			{ text: 'JavaScript Modules', link: '/javascript-modules/' },
 			{ text: 'JavaScript DOM', link: '/dom/' },
 			{ text: 'JavaScript Async', link: '/async/' },
 		],
