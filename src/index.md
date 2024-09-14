@@ -48,7 +48,7 @@ features:
       height: 32
     title: JavaScript Modules
     details: Belajar Modern JavaScript Modules Bahasa Indonesia
-    link: /js-modules/
+    link: /javascript-modules/
     linkText: Selengkapnya
 
   - icon:
