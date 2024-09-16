@@ -10,9 +10,9 @@ Dokumentasi ini dibuat sebagai catatan belajar yang tersaji secara runtut. Catat
 
 Berikut alur lengkap belajar JavaScript:
 
-1. JavaScript Dasar <Badge type="warning" text="on progress" /> - [Baca selengkapnya](/basic/)
-2. JavaScript OOP <Badge type="warning" text="on progress" /> - [Baca selengkapnya](/oop/)
-3. JavaScript Standard Library <Badge type="warning" text="on progress" /> - [Baca selengkapnya](/standard-library/)
+1. JavaScript Dasar <Badge type="warning" text="on progress" /> - [Baca selengkapnya](/javascript-basic/)
+2. JavaScript OOP <Badge type="warning" text="on progress" /> - [Baca selengkapnya](/javascript-oop/)
+3. JavaScript Standard Library <Badge type="warning" text="on progress" /> - [Baca selengkapnya](/javascript-standard-library/)
 4. JavaScript Modules <Badge type="warning" text="on progress" /> - [Baca selengkapnya](/javascript-modules/)
-5. JavaScript DOM <Badge type="tip" text="completed" /> - [Baca selengkapnya](/dom/)
-6. JavaScript Asynchronous <Badge type="tip" text="completed" /> - [Baca selengkapnya](/async/)
+5. JavaScript DOM <Badge type="tip" text="completed" /> - [Baca selengkapnya](/javascript-dom/)
+6. JavaScript Asynchronous <Badge type="tip" text="completed" /> - [Baca selengkapnya](/javascript-async/)
