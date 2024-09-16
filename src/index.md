@@ -23,27 +23,37 @@ hero:
 features:
   - icon:
       src: /favicon.ico
-      alt: 'javascript oop icon'
+      alt: 'javascript icon'
+      width: 32
+      height: 32
+    title: JavaScript Basic
+    details: Belajar Dasar JavaScript Bahasa Indonesia.
+    link: /javascript-basic/
+    linkText: Selengkapnya
+
+  - icon:
+      src: /favicon.ico
+      alt: 'javascript icon'
       width: 32
       height: 32
     title: JavaScript OOP
     details: Belajar JavaScript OOP Bahasa Indonesia.
-    link: /oop/
+    link: /javascript-oop/
     linkText: Selengkapnya
 
   - icon:
       src: /favicon.ico
-      alt: 'javascript oop icon'
+      alt: 'javascript icon'
       width: 32
       height: 32
     title: JavaScript Standard Library
     details: Belajar JavaScript Standard Library Bahasa Indonesia
-    link: /standard-library/
+    link: /javascript-standard-library/
     linkText: Selengkapnya
 
   - icon:
       src: /favicon.ico
-      alt: 'javascript oop icon'
+      alt: 'javascript icon'
       width: 32
       height: 32
     title: JavaScript Modules
@@ -58,7 +68,7 @@ features:
       height: 32
     title: Document Object Model
     details: Belajar JavaScript DOM Bahasa Indonesia
-    link: /dom/
+    link: /javascript-dom/
     linkText: Selengkapnya
 
   - icon:
@@ -68,6 +78,6 @@ features:
       height: 32
     title: JavaScript Async
     details: Belajar JavaScript Asynchronous Bahasa Indonesia
-    link: /async/
+    link: /javascript-async/
     linkText: Selengkapnya
 ---
