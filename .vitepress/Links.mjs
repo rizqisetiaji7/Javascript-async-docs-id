@@ -7,7 +7,7 @@ const SIDEBAR_LINKS = {
 			{ text: 'Membuat Object', link: '/oop/create-object' },
 			{
 				text: 'Constructor',
-				collapsed: false,
+				collapsed: true,
 				items: [
 					{ text: 'Constructor Function', link: '/oop/constructor-function' },
 					{ text: 'Const. Function Param', link: '/oop/constructor-function-param' },
@@ -18,7 +18,7 @@ const SIDEBAR_LINKS = {
 			{ text: 'Prototype Inheritance', link: '/oop/prototype-inheritance' },
 			{
 				text: 'Class',
-				collapsed: false,
+				collapsed: true,
 				items: [
 					{ text: 'Class Keyword', link: '/oop/class-keyword' },
 					{ text: 'Class Constructor', link: '/oop/class-constructor' },
@@ -49,7 +49,7 @@ const SIDEBAR_LINKS = {
 			{ text: 'Agenda', link: '/standard-library/' },
 			{ 
 				text: 'Number', 
-				collapsed: false,
+				collapsed: true,
 				items: [
 					{ text: 'Intro: Number', link: '/standard-library/number' },
 					{ text: 'Number Static Property', link: '/standard-library/number-static-property' },
@@ -59,7 +59,7 @@ const SIDEBAR_LINKS = {
 			},
 			{
 				text: 'String',
-				collapsed: false,
+				collapsed: true,
 				items: [
 					{ text: 'Intro: String', link: '/standard-library/string' },
 					{ text: 'Instance Method & Property', link: '/standard-library/string-instance-method-and-property' },
@@ -67,7 +67,7 @@ const SIDEBAR_LINKS = {
 			},
 			{ 
 				text: 'Array', 
-				collapsed: false,
+				collapsed: true,
 				items: [
 					{ text: 'Intro: Array', link: '/standard-library/array' },
 					{ text: 'Array Loop', link: '/standard-library/array-loop' },
@@ -80,7 +80,7 @@ const SIDEBAR_LINKS = {
 			},
 			{
 				text: 'Object',
-				collapsed: false,
+				collapsed: true,
 				items: [
 					{ text: 'Intro: Object', link: '/standard-library/object' },
 					{ text: 'Object Freeze & Seal', link: '/standard-library/object-freeze-and-seal' },
@@ -89,8 +89,8 @@ const SIDEBAR_LINKS = {
 				]
 			},
 			{
-				text: 'JavaSript Object Notation',
-				collapsed: false,
+				text: 'JSON',
+				collapsed: true,
 				items: [
 					{ text: 'Intro: JSON', link: '/standard-library/json-intro' },
 					{ text: 'JSON', link: '/standard-library/json' },
@@ -98,7 +98,7 @@ const SIDEBAR_LINKS = {
 			},
 			{
 				text: 'Date',
-				collapsed: false,
+				collapsed: true,
 				items: [
 					{ text: 'Intro: Date', link: '/standard-library/date' },
 					{ text: 'Epoch & UNIX Timestamp', link: '/standard-library/epoch-unix-timestamp' },
