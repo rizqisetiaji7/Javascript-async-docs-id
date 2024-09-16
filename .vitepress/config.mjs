@@ -9,6 +9,11 @@ export default defineConfig({
   cleanUrls: true,
   ignoreDeadLinks: true,
   srcDir: 'src',
+  vite: {
+    server: {
+      port: 7200
+    }
+  },
   markdown: {
     theme: {
       light: 'github-light',
