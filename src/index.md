@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Javascript Docs"
   text: "Bahasa Indonesia"
-  tagline: "Dokumentasi & rangkuman belajar JavaScript berbahasa Indonesia lengkap"
+  tagline: "Dokumentasi & rangkuman belajar JavaScript berbahasa Indonesia"
   image:
     src: /images/vitepress-logo-large.webp
     alt: Javascript
