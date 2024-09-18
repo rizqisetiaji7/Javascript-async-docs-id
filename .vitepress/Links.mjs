@@ -53,7 +53,7 @@ const SIDEBAR_LINKS = {
 	'/javascript-standard-library/': {
 		text: 'JavaScript Standard Library',
 		items: [
-			{ text: 'Agenda', link: '/javascript-standard-library/' },
+			{ text: 'Agenda Belajar', link: '/javascript-standard-library/' },
 			{ 
 				text: 'Number', 
 				collapsed: true,
