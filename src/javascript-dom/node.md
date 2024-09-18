@@ -4,7 +4,7 @@ title: Node | JS DOM
 
 # Node
 
-Node merupakan base class dari `Document`, `Element`, dan `Attribute`. Yang berarti semua fitur yang dimiliki Node juga dimiliki oleh turunannya. 
+Node merupakan base class dari [Document](/javascript-dom/document), [Element](/javascript-dom/element), dan [Attribute](/javascript-dom/attribute). Yang berarti semua fitur yang dimiliki Node juga dimiliki oleh turunannya. 
 
 Node didalam DOM berbentuk seperti Tree (Pohon), artinya Node memiliki sebuah _**Parent**_ (Node diatasnya), _**Children**_ (Node dibawahnya), _**Sibling**_ (Node disebelahnya, kanan/kiri). 
 
@@ -77,7 +77,7 @@ Serta masih banyak Node Property lainnya.
 ```
 
 Pada `menu.childNodes` akan mengmbalikan `NodeList` yang berisi list semua element yang berada di dalam element `<ul>`.
-Kemudia untuk `second.previousSibling` akan menampilkan element sebelumnya (termasuk tab, spasi, atau enter akan dianggap sebagai `text`). Begitu juga untuk `second.nextSibling`. 
+Kemudian untuk `second.previousSibling` akan menampilkan element sebelumnya (termasuk tab, spasi, atau enter akan dianggap sebagai `text`). Begitu juga untuk `second.nextSibling`. 
 
 Penggunaan `second.previousSibling` dan `second.nextSibling` bisa menggunakan teknik chaining untuk mendapatkan element yang dibutuhkan. Misal jika tidak ingin mendapatkan spasi, tab, atau enter yang dianggap sebagai element `text`, maka untuk mendapatkan element `<li id="first">` atau `<li id="third">` bisa seperti berikut:
 
