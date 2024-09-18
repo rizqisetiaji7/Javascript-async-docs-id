@@ -4,7 +4,9 @@ title: Document Object Model | JS DOM
 
 # Document Object Model (DOM)
 
-DOM merupakan representasi object dari struktur halaman website. Dimana dengan menggunakan DOM, halaman website bisa dimanipulasi sehingga terlihat lebih dinamis. DOM sering digambarkan dalam struktur tree (Pohon), dimana ketika web browser merender halaman website akan dibentuk dalam sebuah document, yang didalamnya terdapat banyak sekali tag html, diumlai dari root element yaitu html, didalam html terdapat dua cabang tag yaitu head dan body, didalam head bisa terdapat tag title yang didalamya lagi memiliki teks konten, didalam body pun demikian memiliki banyak cabang atau tag beserta attributenya, hal itulah kenapa DOM direpresentasikan dalam diagram Tree. 
+DOM merupakan representasi object dari struktur halaman website. Dimana dengan menggunakan DOM, halaman website bisa dimanipulasi sehingga terlihat lebih dinamis. DOM sering digambarkan dalam struktur tree (Pohon), dimana ketika web browser merender halaman website akan dibentuk dalam sebuah document, yang didalamnya terdapat banyak sekali tag html.
+
+Di mulai dari root element yaitu html, didalam html terdapat dua cabang tag yaitu head dan body, didalam head bisa terdapat tag title yang didalamya lagi memiliki teks konten, didalam body pun demikian memiliki banyak cabang atau tag beserta attributenya, hal itulah kenapa DOM direpresentasikan dalam diagram Tree. 
 
 DOM sendiri bukanlah fitur dari javascript, melainkan sebuah web API yang disediakan untuk mengakses berbagai object dan memanipulasi sesuai kebutuhan. Jadi DOM ini bukan hanya ada di bahasa pemrograman Javascript, tetapi di bahasa pemrograman lain pun bisa ada, seperti Java, Kotlin, PHP, dll.
 
