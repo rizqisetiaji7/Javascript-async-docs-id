@@ -50,7 +50,7 @@ console.log(document.contentType)
 
 ## Document Method
 
-Method didalam document digunakan untuk memanipulasi data DOM, misalnya membuat `Node`, `Element`, `Attribute`, atau mengambil dan menyeleksi Node didalam document.
+Method didalam document digunakan untuk memanipulasi data DOM, misalnya membuat [Node](/javascript-dom/node), [Element](/javascript-dom/element), [Attribute](/javascript-dom/attribute), atau mengambil dan menyeleksi Node didalam document.
 
 > :memo: **Baca selengkapnya:** [Document Method](https://developer.mozilla.org/en-US/docs/Web/API/Document#methods)
 
@@ -67,7 +67,7 @@ Berikut contoh beberapa document method yang sering digunakan:
 
 Serta masih banyak lagi document method yang bisa dimanfaatkan.
 
-Berikut contoh penggunaan document method untuk menyeleksi element berdasarkan id:
+Berikut contoh penggunaan document method untuk menyeleksi element berdasarkan `id`:
 
 ```html
 <p id="text">Test seleksi element.</p>
