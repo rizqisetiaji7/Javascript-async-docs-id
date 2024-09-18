@@ -8,11 +8,13 @@ DOM merupakan representasi object dari struktur halaman website. Dimana dengan m
 
 Di mulai dari root element yaitu html, didalam html terdapat dua cabang tag yaitu head dan body, didalam head bisa terdapat tag title yang didalamya lagi memiliki teks konten, didalam body pun demikian memiliki banyak cabang atau tag beserta attributenya, hal itulah kenapa DOM direpresentasikan dalam diagram Tree. 
 
-DOM sendiri bukanlah fitur dari javascript, melainkan sebuah web API yang disediakan untuk mengakses berbagai object dan memanipulasi sesuai kebutuhan. Jadi DOM ini bukan hanya ada di bahasa pemrograman Javascript, tetapi di bahasa pemrograman lain pun bisa ada, seperti Java, Kotlin, PHP, dll.
+DOM sendiri bukanlah fitur dari javascript, melainkan sebuah [Web API](https://developer.mozilla.org/en-US/docs/Web/API) yang disediakan untuk mengakses berbagai object dan memanipulasi sesuai kebutuhan. Jadi DOM ini bukan hanya ada di bahasa pemrograman Javascript, tetapi di bahasa pemrograman lain pun bisa ada, seperti Java, Kotlin, PHP, dll.
 
 ## Tipe Data
 
-DOM tidak memiliki banyak tipe data, kebanyakan adalah representasi objek. Penggunaan DOM sangat sederhana dan juga sangat bermanfaat. Berikut beberapa tipe data dari DOM:
+DOM tidak memiliki banyak tipe data, kebanyakan adalah representasi objek. Penggunaan DOM sangat sederhana dan juga sangat bermanfaat. 
+
+Berikut beberapa tipe data dari DOM:
 
 | # | Tipe Data | Keterangan |
 | :-: | --------- | ---------- |
