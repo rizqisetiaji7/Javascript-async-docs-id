@@ -10,7 +10,7 @@ const SIDEBAR_LINKS = {
 		text: 'JavaScript OOP',
 		items: [
 			{ text: 'Agenda Belajar', link: '/javascript-oop/' },
-			{ text: 'Pengenalan OOP', link: '/javascript-oop/pengenalan-oop' },
+			{ text: 'JavaScript OOP', link: '/javascript-oop/pendahuluan' },
 			{ text: 'Membuat Object', link: '/javascript-oop/create-object' },
 			{
 				text: 'Constructor',
