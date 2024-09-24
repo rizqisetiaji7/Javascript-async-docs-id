@@ -19,7 +19,7 @@ npm run dev
 
 **Buka browser dan ketik url**
 ```
-http://localhost:5173/
+http://localhost:7200/
 ```
 
 ## :memo: Documentation
