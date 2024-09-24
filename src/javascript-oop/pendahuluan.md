@@ -25,3 +25,7 @@ Contoh terdapat sebuah Class dengan nama `Person`, yang terdiri dari dua propert
 Object dibuat berdasarkan Class blueprint-nya, contohnya Class `Person` akan dibuatkan object dengan nama `john`, lalu set property `firtName='John'` dan `lastName='Doe'`. Tentunya Object dari class `Person` bisa dibuat banyak sekali object person lainnya. Berikut contoh diagramnya:
 
 ![OOP Diagram](/images/oop-diagram.png)
+
+Pada contoh gambar diatas hanya terdapat satu class yaitu `Person` sebagai blueprint. Class tidak bisa langsung digunakan, untuk menggunakannya harus membuat object terlebih dahulu. Seperti contoh diatas terdapat tiga object yaitu, `john`, `anwar`, dan `cena`. Masing-masing dari object tersebut bisa set property yang sudah didefinisikan pada blueprint class `Person` seperti `firstName` dan `lastName`, serta bisa juga menggunakan methodnya.
+
+Setiap object yang telah dibuat tidak ada hubungannya satu sama lain atau berdiri sendiri. Seperti contoh diatas terdapat tiga object yaitu, `john`, `anwar`, dan `cena`. Dari ketiga object tersebut memiliki perannya masing-masing.
