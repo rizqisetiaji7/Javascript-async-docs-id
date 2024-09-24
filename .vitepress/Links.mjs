@@ -17,6 +17,8 @@ const SIDEBAR_LINKS = {
 				collapsed: true,
 				items: [
 					{ text: 'Constructor Function', link: '/javascript-oop/constructor-function' },
+					{ text: 'Const. Function Property', link: '/javascript-oop/constructor-function-property' },
+					{ text: 'Const. Function Method', link: '/javascript-oop/constructor-function-method' },
 					{ text: 'Const. Function Param', link: '/javascript-oop/constructor-function-param' },
 					{ text: 'Constructor Inheritance', link: '/javascript-oop/constructor-inheritance' },
 				]
