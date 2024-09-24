@@ -29,3 +29,9 @@ Object dibuat berdasarkan Class blueprint-nya, contohnya Class `Person` akan dib
 Pada contoh gambar diatas hanya terdapat satu class yaitu `Person` sebagai blueprint. Class tidak bisa langsung digunakan, untuk menggunakannya harus membuat object terlebih dahulu. Seperti contoh diatas terdapat tiga object yaitu, `john`, `anwar`, dan `cena`. Masing-masing dari object tersebut bisa set property yang sudah didefinisikan pada blueprint class `Person` seperti `firstName` dan `lastName`, serta bisa juga menggunakan methodnya.
 
 Setiap object yang telah dibuat tidak ada hubungannya satu sama lain atau berdiri sendiri. Seperti contoh diatas terdapat tiga object yaitu, `john`, `anwar`, dan `cena`. Dari ketiga object tersebut memiliki perannya masing-masing.
+
+## OOP di JavaScript
+
+JavaScript sebenarnya didesain sebagai bahasa pemrograman yang prosedural, bukan bahasa pemrograman berorientasi objek. Oleh karena itu, implementasi OOP di JavaScript tidak sedetail bahasa pemrograman lain yang sudah murni sejak awal menggunakan konsep OOP seperti Java, C++, dll. Jadi konsep OOP di JavaScript baru di implemetasikan di javascript versi yang terbaru.
+
+Kenapa JavaScript tidak menguubah saja menjadi bahasa pemrograman yang OOP? hal ini karena terkait _Backward compatibility_ sehingga tidak memungkinkan untuk merubah semuah konsep pemrograman di JavaScript menjadi OOP karena kompatibilitas dengan program yang versi terdahulunya.
