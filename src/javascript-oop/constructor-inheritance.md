@@ -31,3 +31,6 @@ function Manager(firstName, lastName) {
    this.lastName = lastName
 }
 ```
+
+Sekilas mirip seperti inheritance, akan tetapi yang sebenarnya di lakukan kode diatas adalah seperti meng-copy property, method, atau perilaku dari constructor lain.
+
