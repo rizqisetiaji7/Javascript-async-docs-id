@@ -32,5 +32,15 @@ function Manager(firstName, lastName) {
 }
 ```
 
-Sekilas mirip seperti inheritance, akan tetapi yang sebenarnya di lakukan kode diatas adalah seperti meng-copy property, method, atau perilaku dari constructor lain.
+Sekilas mirip seperti inheritance, akan tetapi yang sebenarnya di lakukan kode diatas adalah seperti menyalin property, method, atau perilaku dari constructor lain.
 
+## Kode: Contoh Object
+
+```js
+const john = new Manager('John', 'Doe')
+console.log(john)
+```
+
+Ketika melihat object dari kode di atas, maka class `Manager` dari object `john` memiliki property `firstName`, `lastName`, dan method `sayHello()`.
+
+Meskipun pada class `Manager` tidak mendeklarasikan property `firstName` dan method `sayHello()`, kini dengan menggunakan constructor inheritance dari class `Employee`, jadi memiliki semua property dan method tersebut dengan menggunakan `Employee.call(this, parameter)`.
