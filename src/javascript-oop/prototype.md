@@ -62,6 +62,6 @@ Pada kode object instance `budi` dan `john` dari sebuah construcor function, mak
 
 Jika diperhatikan terdapat `__proto__`, yang sebenarnya mengacu pada `Person.prototype`, mirip seperti pewarisan, jadi apa yang dimiliki oleh prototypenya juga dimiliki oleh object instancenya. 
 
-Pada contoh kode object instance `budi` dan `john` secara otomatis memiliki `__proto__` yang mengacu pada `Person.prototype`.
+Pada contoh kode object instance `budi` dan `john` secara otomatis memiliki `__proto__` yang mengacu pada `Person.prototype` yang sama.
 
 Begitu juga dengan constructor function `Person.prototype` yang juga memiliki `__proto__` mengacu ke prototype yang lainnya terus hingga yang paling terakhir yaitu `Object.prototype`.
