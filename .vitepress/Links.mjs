@@ -14,7 +14,7 @@ const SIDEBAR_LINKS = {
 			{ text: 'Membuat Object', link: '/javascript-oop/create-object' },
 			{
 				text: 'Constructor',
-				collapsed: true,
+				collapsed: false,
 				items: [
 					{ text: 'Constructor Function', link: '/javascript-oop/constructor-function' },
 					{ text: 'Const. Function Property', link: '/javascript-oop/constructor-function-property' },
@@ -26,7 +26,7 @@ const SIDEBAR_LINKS = {
 			{ text: 'Prototype', link: '/javascript-oop/prototype' },
 			{
 				text: 'Class',
-				collapsed: true,
+				collapsed: false,
 				items: [
 					{ text: 'Class Keyword', link: '/javascript-oop/class-keyword' },
 					{ text: 'Class Constructor', link: '/javascript-oop/class-constructor' },
