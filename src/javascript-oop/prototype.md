@@ -14,7 +14,7 @@ Setiap membuat constructor function, secara otomatis akan dibuatkan prototype-ny
 
 Saat membuat sebuah object instance, secara otomatis object tersebut adalah turunan dari `Constructor.prototype` nya. Untuk mengakses prototype milik sebuah instance, bisa dengan menggunakan `__proto__`.
 
-## Kode: Object Instance
+### Kode: Object Instance
 
 Berikut contoh kode dari materi sebelumnya, yaitu menggunakan Class `Person` dengan parameter:
 
@@ -42,19 +42,19 @@ console.log(john)
 ``` [Console]
 Person
    firstName: "Budi"
-   lastName: "Sudarsono",
+   lastName: "Sudarsono"
    > sayHello: f (name)
    > __proto__: Object
 
 Person
    firstName: "John"
-   lastName: "Doe",
+   lastName: "Doe"
    > sayHello: f (name)
    > __proto__: Object
 ```
 :::
 
-## Prototype Diagram
+### Prototype Diagram
 
 ![Prototype](/images/prototype-diagram.png)
 
@@ -70,3 +70,39 @@ Begitu juga dengan constructor function `Person.prototype` yang juga memiliki `_
 
 Property mirip seperti Object, yang dimana bisa menambah property baik itu value maupun method.
 Saat menambahkan property ke Prototype, secara otomatis semua object instance yang merupakan turunan dari prototype tersebut, akan memiliki property tersebut.
+
+### Kode: Menambah Property ke Instance Object
+
+::: code-group
+```js [Object Instance]
+const budi = new Person('Budi', 'Sudarsono')
+
+// Hanya untuk instance object budi
+budi.sayBye = function() {
+   console.log('Good Bye')
+}
+
+const john = new Person('John', 'Doe')
+
+console.log(budi)
+console.log(john)
+```
+
+``` [Console]
+Person
+   firstName: "Budi"
+   lastName: "Sudarsono"
+   > sayBye: f () // [!code ++]
+   > sayHello: f (name)
+   > __proto__: Object
+
+Person
+   firstName: "John"
+   lastName: "Doe"
+   - // [!code --]
+   > sayHello: f (name)
+   > __proto__: Object
+```
+:::
+
+Pada kode diatas jika dilihat pada console, maka property `sayBye` yang berisi method, hanya ada pada instance object `budi`, sedangkan pada instance object `john` tidak ada.
