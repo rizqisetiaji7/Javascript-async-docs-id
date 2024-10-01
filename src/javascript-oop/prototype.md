@@ -65,3 +65,8 @@ Jika diperhatikan terdapat `__proto__`, yang sebenarnya mengacu pada `Person.pro
 Pada contoh kode object instance `budi` dan `john` secara otomatis memiliki `__proto__` yang mengacu pada `Person.prototype` yang sama.
 
 Begitu juga dengan constructor function `Person.prototype` yang juga memiliki `__proto__` mengacu ke prototype yang lainnya terus hingga yang paling terakhir yaitu `Object.prototype`.
+
+## Menambah Property ke Prototype
+
+Property mirip seperti Object, yang dimana bisa menambah property baik itu value maupun method.
+Saat menambahkan property ke Prototype, secara otomatis semua object instance yang merupakan turunan dari prototype tersebut, akan memiliki property tersebut.
