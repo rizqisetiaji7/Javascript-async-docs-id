@@ -24,6 +24,7 @@ const SIDEBAR_LINKS = {
 				]
 			},
 			{ text: 'Prototype', link: '/javascript-oop/prototype' },
+			{ text: 'Prototype Inheritance', link: '/javascript-oop/prototype-inheritance' },
 			{
 				text: 'Class',
 				collapsed: false,
