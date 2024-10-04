@@ -106,3 +106,44 @@ Person
 :::
 
 Pada kode diatas jika dilihat pada console, maka property `sayBye` yang berisi method, hanya ada pada instance object `budi`, sedangkan pada instance object `john` tidak ada.
+
+### Kode: Menambah Property ke Prototype
+
+Untuk menambahkan property sebelumnya bisa dilakukan didalam classnya, akan tetapi ada cara lain yaitu menggunakan prototype melalui property `prototype`, berikut contoh kodenya:
+
+```js
+Person.prototype.sayBye = function() {
+   console.log(`Good Bye`)
+}
+
+// Bisa menambahkan banyak property lebih dari satu
+Person.prototype.run = function() {
+   console.log(`${this.firstName} is running`)
+}
+
+const budi = new Person('Budi', 'Sudarsono')
+const john = new Person('John', 'Doe')
+
+console.log(budi)
+console.log(john)
+```
+
+Dengan menggunakan cara seperti contoh kode diatas, property tersebut tidak ditambahkan kedalam objectnya, akan tetapi didalam prototype-nya pada property `__proto__`, berikut output melalui console:
+
+```
+Person
+   firstName: "Budi"
+   lastName: "Sudarsono"
+   > sayHello: f (name)
+   > __proto__: 
+      > run: f () // [!code ++]
+      > sayBye: f () // [!code ++]
+
+Person
+   firstName: "John"
+   lastName: "Doe"
+   > sayHello: f (name)
+   > __proto__: 
+      > run: f () // [!code ++]
+      > sayBye: f () // [!code ++]
+```
