@@ -8,7 +8,8 @@ Sejak EcmaScript versi 6, diperkenalkan kata kunci baru, yaitu `class`. Ini meru
 
 ## Kode: Membuat Class
 
-```js
+::: code-group
+```js [Class]
 class Person {
 
 }
@@ -16,3 +17,11 @@ class Person {
 const john = new Person()
 console.log(john)
 ```
+
+``` [Console]
+Person 
+   > __proto__: 
+      > constructor: class Person
+      > __proto__: Object
+```
+:::
