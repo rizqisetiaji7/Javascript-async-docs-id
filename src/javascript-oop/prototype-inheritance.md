@@ -52,3 +52,7 @@ Hello John, my name is Employee Budi
 Hello John, my name is Manager Mulyono
 ```
 :::
+
+## Diagram: Prototype Inheritance
+
+![Diagram Prototype Inheritance](/images/prototype-inheritance-diagram.png)
