@@ -147,3 +147,24 @@ Person
       > run: f () // [!code ++]
       > sayBye: f () // [!code ++]
 ```
+
+## Cara Kerja Prototype Inheritance
+
+Bagaimana bisa property pada prototype diakses dari object instance?
+
+- Ketika mengakses property di object instance, pertama akan di cek apakah pada object tersebut terdapat property yang dimaksud atau tidak. 
+
+- Jika tidak, maka akan di cek pada `__proto__` (prototype)-nya. 
+
+- Jika masih tidak ada, akan di cek lagi di `__proto__` (prototype) yang lebih tinggi, dan seterusnya, sampai berakhir di Object Prototype.
+
+Jadi ketika di akses pertama pada object instance terlebih dahulu, jika ada maka yang digunakan adalah property yang ada pada object instance-nya, barulah jika tidak ada pada object instance-nya, maka akan di cek pada `__proto__`.
+
+Jadi untuk mengakase property pada prototype, sama seperti mengakses property seperti biasanya, berikut contohnya:
+
+```js
+const budi = new Person('Budi', 'Sudarsono')
+
+budi.sayBye() // [!code ++]
+budi.run() // [!code ++]
+```
