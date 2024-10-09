@@ -31,7 +31,8 @@ class Manager extends Employee {
 
 **Contoh 2: Membuat Object Instance**
 
-```js
+::: code-group
+```js [Code]
 const sayaka = new Employee()
 sayaka.name = 'Sayaka'
 sayaka.sayHello('John')
@@ -40,3 +41,42 @@ const john = new Manager()
 john.name = 'John'
 john.sayHello('Sayaka')
 ```
+
+``` [Console]
+Hi John, my name is employee Sayaka
+
+Hi Sayaka, my name is manager John
+```
+:::
+
+## Cek Inheritance
+
+Untuk melihat inheritance pada instance objectnya bisa menggunakan `console.log()`. Berikut contohnya:
+
+::: code-group
+```js [Code]
+console.log(sayaka)
+console.log(john)
+```
+
+``` [Console]
+> Employee
+   name: 'Sayaka'
+   > __proto__:
+      > constructor: class Employee
+      > sayHello: f sayHello(name)
+      > __proto__: Object
+
+> Manager
+   name: 'John'
+   > __proto__: Employee
+      > constructor: class Manager
+      > sayHello: f sayHello(name)
+      > __proto__: 
+         > constructor: class Employee
+         > sayHello: f sayHello(name)
+         > __proto__: Object
+```
+:::
+
+Pada output di atas terdapat perbedaan, terutama pada object instance `Manager`, yang dimana terdapat `__proto__` yang didalamnya ada constrcutor yang merujuk pada class `Employee`.
