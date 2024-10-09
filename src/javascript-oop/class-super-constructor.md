@@ -48,8 +48,19 @@ john.sayHello('Sayaka')
 ## Kode: Super Constructor (2)
 
 Lalu bagaimana jika pada child class memiliki constructor juga? 
-Jika child memiliki constructor, maka *wajib* memanggil constructor dari parent class-nya. Jika tidak memanggil constructor parent, maka akan terjadi error. Untuk memanggil constructor parent, bisa dengan menggunakan kata kunci `super()`. Kata kunci `super()` hanya boleh dipanggil didalam constructor, tidak bisa pada method. Berikut contohnya:
+Jika child memiliki constructor, maka *wajib* memanggil constructor dari parent class-nya. Jika tidak memanggil constructor parent, maka akan terjadi error. Untuk memanggil constructor parent, bisa dengan menggunakan kata kunci `super()`. Kata kunci `super()` hanya boleh dipanggil didalam constructor, tidak bisa pada method. 
+
+Berikut contohnya menggunakan kode class `Manager` yang merupakan turunan dari class `Employee`:
 
 ```js
+class Manager extends Employee {
+   constructor(firstName, lastName) {
+      super(firstName) // [!code ++]
+      this.lastName = lastName
+   }
 
+   sayHello(name) {
+      console.log(`Hi ${name}, my name is manager ${this.firstName}`)
+   }
+}
 ```
