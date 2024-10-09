@@ -2,4 +2,4 @@
 title: Class Super Method
 ---
 
-# Class Propery
+# Class Super Method
